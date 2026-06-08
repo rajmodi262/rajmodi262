@@ -103,30 +103,46 @@ Core Engine:
     </td>
   </tr>
 </table>
+---
+
+## 🏆 Achievements & Credentials Database
+```yaml
+Academic_Highlights:
+  - Event: Smart India Hackathon (SIH) 2025
+    Rank: Overall Rank 63 (Top 10% University Level)
+    Team: BrainChain (MIT-WPU)
+    
+  - Event: National Creative Olympiad
+    Rank: AIR 8 (All India Rank)
+    
+  - Leadership: Joint President, Student Alumni Relations Society (2025-26)
+    Scope: Student leadership, corporate networking & event coordination
+    
+  - Certifications: 
+    - IBM Data Visualization & Analytics
+    - RIT Applied Analytics
+    - IU Financial Planning
+```
 
 ---
 
-## 🏆 Trophies & Achievements
+## ⚡ System Competency Metrics
+```yaml
+Frontend_Engineering:
+  React.js / Next.js 14 [ ██████████████████░░ ] 90%
+  TypeScript            [ ████████████████░░░░ ] 80%
+  Zustand State Engine  [ ██████████████████░░ ] 90%
+  Tailwind CSS          [ ██████████████████░░ ] 90%
+  Ant Design / UI       [ ████████████████░░░░ ] 80%
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rajmodi262&theme=onedark&no-background=true&margin-w=15" alt="Trophies" width="100%" />
-</div>
+Backend_&_Data_Science:
+  Python / FastAPI      [ ██████████████░░░░░░ ] 70%
+  PostgreSQL / MySQL    [ ████████████░░░░░░░░ ] 60%
+  Docker Container      [ ████████████░░░░░░░░ ] 60%
+  OpenCV / YOLOv8       [ ██████████████░░░░░░ ] 70%
+```
 
 ---
-
-## 📊 Developer Metrics & Commits
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajmodi262&bg_color=0D1117&color=6366f1&line=6366f1&point=4f46e5&area=true&hide_border=true" width="100%" alt="Commit Graph" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajmodi262&theme=radical&hide_border=true&background=0D1117" width="100%" alt="Streak Stats" />
-</div>
-
-<br>
 
 <div align="center">
   <i>"Any sufficiently advanced frontend interface is indistinguishable from magic."</i>
