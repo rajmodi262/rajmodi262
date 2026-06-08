@@ -6,13 +6,13 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=INITIATING+COGNITIVE+CORE...;BUILDING+CLEAN+FAST+SCALABLE+WEB+APPS;ORCHESTRATING+MULTI-AGENT+AI+SYSTEMS;REACT.JS+%E2%80%A2+NEXT.JS+%E2%80%A2+TYPESCRIPT" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&weight=700&size=24&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=INITIATING+COGNITIVE+CORE...;REACT.JS+%E2%80%A2+NEXT.JS+%E2%80%A2+TYPESCRIPT;BUILDING+CLEAN+FAST+SCALABLE+WEB+APPS;ORCHESTRATING+MULTI-AGENT+AI+SYSTEMS" alt="Typing SVG" />
   </a>
 </div>
 
 <div align="center">
-  <h3>⚡ Frontend Developer & AI Systems Engineer ⚡</h3>
-  <p><em>Crafting immersive user interfaces and planning autonomous AI agent architectures.</em></p>
+  <h3>⚡ Frontend Developer & AI Systems Architect ⚡</h3>
+  <p><em>Fusing advanced React.js interfaces with cognitive multi-agent AI networks.</em></p>
 </div>
 
 <div align="center">
@@ -31,72 +31,99 @@
 
 ---
 
-## 👽 The Commander's Logs
+## 🛰️ System Specifications
 ```yaml
-System:
-  Status: ACTIVE 🟢
-  Target: Building high-performance, real-time web terminals
-  Stack: React.js, Next.js, TypeScript, Zustand, WebSockets, FastAPI, LangGraph
-  Hobby: Algorithmic trading backtesting & computer vision anomalies
+Core Engine:
+  Status: OPERATIONAL 🟢
+  Focus: High-performance React SPAs, WebSockets, Visual Strategy Builders
+  Primary Stack: React.js, Next.js 14, TypeScript, Zustand, Tailwind CSS, FastAPI
+  Data Engine: REST APIs (Axios), WebSockets, NumPy, Pandas, OpenCV, YOLOv8
+  Infrastructure: Docker, Vercel, AWS, Git, CI/CD pipelines
 ```
 
-* **🎓 Academic Sandbox:** Pursuing B.Tech in Computer Science & Engineering (AI & Data Science) at MIT-WPU, Pune (Class of 2027).
-* **🧠 Core Philosophy:** User interfaces should feel alive. Dynamic styling, responsive grids, and sub-100ms real-time data flow are non-negotiable.
-* **⚡ Daily Operations:** Porting complex data inputs into beautiful visual panels, converting Figma designs to pixel-perfect code, and building multi-agent AI debate engines.
+---
+
+## 🎨 Interactive Creative Showcases
+
+<table border="0">
+  <tr>
+    <!-- Project 1: AlphaDesk -->
+    <td width="33.3%" valign="top">
+      <div align="center">
+        <h3>📈 AlphaDesk</h3>
+        <img src="https://img.shields.io/badge/Next.js_14-000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Zustand-4A5568?style=flat-square" />
+      </div>
+      <br>
+      <ul>
+        <li>Real-time candlestick charts via <b>TradingView Charts</b></li>
+        <li>Live orderbook depth grids and watchlist driven by <b>WebSockets</b></li>
+        <li>Drag-and-drop <b>strategy composer</b> with 30-day backtesting</li>
+      </ul>
+      <div align="center">
+        <a href="https://github.com/rajmodi262/AlphaDesk"><b>Explore Codebase ➔</b></a>
+      </div>
+    </td>
+    <!-- Project 2: agentforge -->
+    <td width="33.3%" valign="top">
+      <div align="center">
+        <h3>🤖 agentforge</h3>
+        <img src="https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
+      </div>
+      <br>
+      <ul>
+        <li>Orchestrates 7 AI agents through <b>LangGraph</b> state machines</li>
+        <li><b>WebSocket-driven</b> live board meeting debates between agents</li>
+        <li>Dynamic self-critique & Pydantic JSON verification pipeline</li>
+      </ul>
+      <div align="center">
+        <a href="https://github.com/rajmodi262/agentforge"><b>Explore Codebase ➔</b></a>
+      </div>
+    </td>
+    <!-- Project 3: AquaScan AI -->
+    <td width="33.3%" valign="top">
+      <div align="center">
+        <h3>🌊 AquaScan AI</h3>
+        <img src="https://img.shields.io/badge/React_Vite-20232A?style=flat-square&logo=vite&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+        <img src="https://img.shields.io/badge/YOLOv8-FF0000?style=flat-square" />
+      </div>
+      <br>
+      <ul>
+        <li>Hybrid Classical Computer Vision + YOLOv8 Deep Learning</li>
+        <li>FastAPI backend with <b>LAB/HSV color segmentation</b></li>
+        <li>Multi-scale grid anomaly engine with <b>adaptive Z-Scores</b></li>
+      </ul>
+      <div align="center">
+        <a href="https://github.com/rajmodi262/AquaScan-Underwater-Trash-Detection"><b>Explore Codebase ➔</b></a>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🛠️ Technological Arsenal
-
-### 🌐 Frontend Engineering
-`React.js` `Next.js 14` `TypeScript` `JavaScript (ES6+)` `Zustand` `Context API` `Redux` `Tailwind CSS` `Ant Design` `Vite` `HTML5 / CSS3`
-
-### 📊 Financial Viz & Charts
-`TradingView Charts` `Recharts` `Chart.js` `Canvas 2D` `SVG` `GeoJSON Maps`
-
-### 🧠 Backend & AI Frameworks
-`FastAPI` `LangGraph` `YOLOv8` `OpenCV` `Python` `SQLAlchemy` `PostgreSQL` `Docker`
-
----
-
-## 🚀 Pinned Showcase Repositories
+## 🏆 Trophies & Achievements
 
 <div align="center">
-
-| 📊 **[AlphaDesk](https://github.com/rajmodi262/AlphaDesk)** | 🤖 **[agentforge](https://github.com/rajmodi262/agentforge)** | 🌊 **[AquaScan AI](https://github.com/rajmodi262/AquaScan-Underwater-Trash-Detection)** |
-| :---: | :---: | :---: |
-| **Real-Time Trading Terminal** | **Multi-Agent AI Planner** | **Underwater CV System** |
-| Next.js 14 • TS • Zustand • TradingView • WebSockets | React.js • TS • FastAPI • LangGraph • Docker | React.js • Vite • FastAPI • OpenCV • YOLOv8 |
-| <img src="https://github-readme-stats.vercel.app/api/pin/?username=rajmodi262&repo=AlphaDesk&theme=radical&hide_border=true&bg_color=0D1117" width="100%" /> | <img src="https://github-readme-stats.vercel.app/api/pin/?username=rajmodi262&repo=agentforge&theme=radical&hide_border=true&bg_color=0D1117" width="100%" /> | <img src="https://github-readme-stats.vercel.app/api/pin/?username=rajmodi262&repo=AquaScan-Underwater-Trash-Detection&theme=radical&hide_border=true&bg_color=0D1117" width="100%" /> |
-
+  <img src="https://github-profile-trophy.vercel.app/?username=rajmodi262&theme=onedark&no-background=true&margin-w=15" alt="Trophies" width="100%" />
 </div>
 
 ---
 
-## 📊 Github Analytical Metrics
+## 📊 Developer Metrics & Commits
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=rajmodi262&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="100%" alt="Raj's GitHub Stats" />
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajmodi262&theme=radical&hide_border=true&background=0D1117" width="100%" alt="Raj's GitHub Streak" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajmodi262&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" width="70%" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajmodi262&bg_color=0D1117&color=6366f1&line=6366f1&point=4f46e5&area=true&hide_border=true" width="100%" alt="Commit Graph" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/rajmodi262/count.svg" alt="Profile Views" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajmodi262&theme=radical&hide_border=true&background=0D1117" width="100%" alt="Streak Stats" />
 </div>
 
 <br>
