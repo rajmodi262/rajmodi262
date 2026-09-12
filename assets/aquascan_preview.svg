@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aq-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1e"/>
+      <stop offset="60%" stop-color="#040711"/>
+      <stop offset="100%" stop-color="#02040a"/>
+    </linearGradient>
+    <filter id="aq-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&amp;family=Inter:wght@600;700;800&amp;display=swap');
+      .txt-sans { font-family: 'Inter', system-ui, sans-serif; }
+      .txt-mono { font-family: 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="600" height="340" rx="16" fill="url(#aq-bg)" stroke="#00f3ff" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Title bar -->
+  <rect width="600" height="38" rx="16" fill="#0b1329" fill-opacity="0.9"/>
+  <circle cx="24" cy="19" r="5" fill="#ef4444"/>
+  <circle cx="42" cy="19" r="5" fill="#f59e0b"/>
+  <circle cx="60" cy="19" r="5" fill="#10b981"/>
+  <text class="txt-mono" font-size="11" font-weight="700" fill="#64748b" x="85" y="23">AQUASCAN &amp; MISSIONOS :: REAL-TIME SENSOR TELEMETRY &amp; VISION</text>
+  <text class="txt-mono" font-size="10" font-weight="800" fill="#00f3ff" x="500" y="23">[120 FPS]</text>
+
+  <!-- Metrics Grid -->
+  <g transform="translate(25, 55)">
+    <rect width="125" height="60" rx="8" fill="#0c1830" stroke="#1e293b" stroke-width="1"/>
+    <text class="txt-mono" font-size="9" fill="#64748b" x="12" y="20">FRAME RATE</text>
+    <text class="txt-mono" font-size="16" font-weight="800" fill="#00f3ff" x="12" y="44">120 FPS</text>
+
+    <rect x="140" width="125" height="60" rx="8" fill="#022c22" stroke="#00ff9d" stroke-width="1"/>
+    <text class="txt-mono" font-size="9" fill="#6ee7b7" x="152" y="20">FRAME LOSS</text>
+    <text class="txt-mono" font-size="16" font-weight="800" fill="#00ff9d" x="152" y="44">0 DROPS</text>
+
+    <rect x="280" width="125" height="60" rx="8" fill="#0c1830" stroke="#1e293b" stroke-width="1"/>
+    <text class="txt-mono" font-size="9" fill="#64748b" x="292" y="20">SENSOR SYNC</text>
+    <text class="txt-mono" font-size="16" font-weight="800" fill="#38bdf8" x="292" y="44">&lt; 2.5 ms</text>
+
+    <rect x="420" width="130" height="60" rx="8" fill="#0c1830" stroke="#1e293b" stroke-width="1"/>
+    <text class="txt-mono" font-size="9" fill="#64748b" x="432" y="20">VALIDATION</text>
+    <text class="txt-mono" font-size="16" font-weight="800" fill="#ffffff" x="432" y="44">HIL TESTED</text>
+  </g>
+
+  <!-- Visual HUD Reticle Box -->
+  <g transform="translate(25, 130)">
+    <rect width="550" height="155" rx="10" fill="#060c18" stroke="#1e293b" stroke-width="1"/>
+    <text class="txt-mono" font-size="10" font-weight="700" fill="#94a3b8" x="16" y="22">AUTONOMOUS EDGE TELEMETRY &amp; HARDWARE-IN-THE-LOOP SIMULATION</text>
+
+    <!-- Radar & HUD Target -->
+    <g transform="translate(275, 88)">
+      <circle r="48" fill="none" stroke="#1e293b" stroke-width="1"/>
+      <circle r="36" fill="none" stroke="#00f3ff" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.6"/>
+      <circle r="24" fill="none" stroke="#00ff9d" stroke-width="1"/>
+      <line x1="-55" y1="0" x2="55" y2="0" stroke="#1e293b" stroke-dasharray="3,3"/>
+      <line x1="0" y1="-55" x2="0" y2="55" stroke="#1e293b" stroke-dasharray="3,3"/>
+      <rect x="-18" y="-12" width="36" height="24" rx="3" fill="#00ff9d" fill-opacity="0.15" stroke="#00ff9d"/>
+      <text class="txt-mono" font-size="9" font-weight="800" fill="#00ff9d" x="0" y="4" text-anchor="middle">TARGET</text>
+    </g>
+
+    <!-- Left / Right Spec Labels -->
+    <g transform="translate(25, 45)" class="txt-mono" font-size="9.5">
+      <text fill="#00f3ff">Telemetry: IMU / Sonar Stream</text>
+      <text fill="#64748b" y="22">Processing: OpenCV &amp; NumPy C-API</text>
+      <text fill="#94a3b8" y="44">Pipeline: Zero-Copy Shared Memory</text>
+      <text fill="#00ff9d" y="66">Status: 100% Deterministic Sync</text>
+    </g>
+
+    <g transform="translate(390, 45)" class="txt-mono" font-size="9.5">
+      <text fill="#38bdf8">Jitter: &lt; 0.12 ms</text>
+      <text fill="#64748b" y="22">Buffer: Circular Lock-Free</text>
+      <text fill="#94a3b8" y="44">HIL Test: Hardware Verified</text>
+      <text fill="#00ff9d" y="66">Health: Nominal 60/60</text>
+    </g>
+  </g>
+
+  <!-- Bottom status -->
+  <g transform="translate(25, 312)" class="txt-mono" font-size="10" font-weight="700">
+    <circle cx="6" cy="-3" r="3.5" fill="#00ff9d"/>
+    <text fill="#00ff9d" x="16">REAL-TIME EDGE AUTONOMY</text>
+    <text fill="#64748b" x="220">HARDWARE-IN-THE-LOOP SIMULATION</text>
+    <text fill="#38bdf8" x="465">PYTHON &amp; C++</text>
+  </g>
+</svg>

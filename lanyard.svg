@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 740" width="100%" height="100%">
+  <defs>
+    <!-- Cyberpunk Gradients -->
+    <linearGradient id="lanyard-strap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="25%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="75%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="badge-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1e" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#040711" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#02040a" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="glass-edge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="holo-sweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00f3ff" stop-opacity="0.08"/>
+      <stop offset="45%" stop-color="#00ff9d" stop-opacity="0.25"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="65%" stop-color="#7928ca" stop-opacity="0.2"/>
+      <stop offset="85%" stop-color="#00f3ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="avatar-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#10b981" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feOffset dx="0" dy="18" result="offset"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="emerald-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&amp;family=Inter:wght@400;600;700;800;900&amp;display=swap');
+      .txt-sans { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+      .txt-mono { font-family: 'JetBrains Mono', monospace; }
+      
+      @keyframes radar-spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .radar-ring {
+        transform-origin: 125px 115px;
+        animation: radar-spin 12s linear infinite;
+      }
+      @keyframes pulse-diode {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      .status-diode {
+        transform-origin: 250px 242px;
+        animation: pulse-diode 2s ease-in-out infinite;
+      }
+    </style>
+
+    <clipPath id="avatar-circle">
+      <circle cx="125" cy="115" r="44"/>
+    </clipPath>
+  </defs>
+
+  <!-- ================= PENDULUM SWING CONTAINER ================= -->
+  <!-- Physics pendulum swinging from top center pin (250, -40) -->
+  <g filter="url(#shadow)">
+    <animateTransform 
+      attributeName="transform" 
+      type="rotate" 
+      values="-4 250 -40; 4 250 -40; -4 250 -40" 
+      dur="5.5s" 
+      repeatCount="indefinite" 
+      calcMode="spline" 
+      keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+    />
+
+    <!-- 1. The Lanyard Strap Loop -->
+    <path d="M 220,-40 L 241,208 L 259,208 L 280,-40 Z" fill="url(#lanyard-strap)" opacity="0.95"/>
+    <!-- Stitching Traces -->
+    <line x1="223" y1="-40" x2="243" y2="208" stroke="#00f3ff" stroke-width="0.75" stroke-dasharray="3,3" opacity="0.6"/>
+    <line x1="277" y1="-40" x2="257" y2="208" stroke="#00ff9d" stroke-width="0.75" stroke-dasharray="3,3" opacity="0.6"/>
+    <!-- Top Anchor Pin -->
+    <circle cx="250" cy="-40" r="12" fill="#030712" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="250" cy="-40" r="4" fill="#00f3ff"/>
+
+    <!-- 2. Titanium Badge Clip Rigging Assembly -->
+    <rect x="236" y="196" width="28" height="26" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <rect x="241" y="202" width="18" height="15" rx="3" fill="#090d16"/>
+    <!-- Clip Jaw -->
+    <path d="M 243,222 L 250,238 L 257,222 Z" fill="#334155"/>
+    <!-- Active Status Diode (Pulsing) -->
+    <circle class="status-diode" cx="250" cy="242" r="6" fill="#00ff9d" filter="url(#emerald-glow)"/>
+
+    <!-- ================= MAIN CARD CONTAINER ================= -->
+    <g transform="translate(125, 245)">
+      <!-- Card Base Plate Background -->
+      <rect width="250" height="420" rx="22" fill="url(#badge-body)" stroke="url(#glass-edge)" stroke-width="2"/>
+
+      <!-- Ambient Cyber Micro-Grid Background -->
+      <g opacity="0.04" stroke="#00f3ff" stroke-width="1">
+        <line x1="20" y1="0" x2="20" y2="420"/>
+        <line x1="70" y1="0" x2="70" y2="420"/>
+        <line x1="125" y1="0" x2="125" y2="420"/>
+        <line x1="180" y1="0" x2="180" y2="420"/>
+        <line x1="230" y1="0" x2="230" y2="420"/>
+        <line x1="0" y1="60" x2="250" y2="60"/>
+        <line x1="0" y1="180" x2="250" y2="180"/>
+        <line x1="0" y1="280" x2="250" y2="280"/>
+        <line x1="0" y1="360" x2="250" y2="360"/>
+      </g>
+
+      <!-- Top Slot cutout hole -->
+      <rect x="105" y="12" width="40" height="8" rx="4" fill="#020409" stroke="#1e293b" stroke-width="1"/>
+
+      <!-- Accent Top Neon Trim -->
+      <line x1="20" y1="30" x2="230" y2="30" stroke="#00f3ff" stroke-width="2" filter="url(#neon-glow)"/>
+      <circle cx="20" cy="30" r="3" fill="#00ff9d"/>
+      <circle cx="230" cy="30" r="3" fill="#00f3ff"/>
+
+      <!-- Security Header Status -->
+      <text class="txt-mono" font-size="8.5" font-weight="700" fill="#64748b" x="125" y="46" text-anchor="middle" letter-spacing="2">SECURITY CLEARANCE // LEVEL-07</text>
+
+      <!-- 3. Avatar Identity Area -->
+      <circle cx="125" cy="115" r="54" fill="url(#avatar-glow)"/>
+      
+      <!-- Outer Rotating Radar Ring -->
+      <circle class="radar-ring" cx="125" cy="115" r="50" fill="none" stroke="#00f3ff" stroke-width="1.5" stroke-dasharray="6,4,2,4" opacity="0.75"/>
+      <circle cx="125" cy="115" r="46" fill="none" stroke="#00ff9d" stroke-width="2" filter="url(#neon-glow)"/>
+
+      <!-- Actual High-Definition Developer Portrait / Core Crest -->
+      <image href="https://avatars.githubusercontent.com/u/83870631?v=4" x="81" y="71" width="88" height="88" clip-path="url(#avatar-circle)"/>
+
+      <!-- Holographic Reticle Ring Overlay -->
+      <circle cx="125" cy="115" r="44" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.25"/>
+
+      <!-- 4. Text Data Field Specifications -->
+      <!-- Name -->
+      <text class="txt-sans" font-size="18" font-weight="900" fill="#ffffff" x="125" y="190" text-anchor="middle" letter-spacing="0.5">RAJ MODI</text>
+      <!-- Handle -->
+      <text class="txt-mono" font-size="11" font-weight="700" fill="#00f3ff" x="125" y="208" text-anchor="middle" letter-spacing="2">@rajmodi262</text>
+      <!-- Title Badge -->
+      <rect x="25" y="217" width="200" height="20" rx="4" fill="#022c22" stroke="#00ff9d" stroke-width="1" opacity="0.85"/>
+      <text class="txt-mono" font-size="8.5" font-weight="800" fill="#00ff9d" x="125" y="231" text-anchor="middle" letter-spacing="1.2">PRINCIPAL SYSTEMS &amp; AI ARCHITECT</text>
+
+      <!-- Divider Ribbon Line Overlay -->
+      <line x1="25" y1="250" x2="225" y2="250" stroke="#1e293b" stroke-width="1.5"/>
+
+      <!-- Minor Meta Details Infrastructure Blocks -->
+      <g transform="translate(26, 262)" class="txt-sans">
+        <!-- Division -->
+        <text font-size="8" font-weight="700" fill="#64748b" letter-spacing="1">DIVISION</text>
+        <text class="txt-mono" font-size="10" font-weight="700" fill="#f8fafc" y="14">CORE SYSTEMS &amp; AI</text>
+
+        <!-- Access Status -->
+        <text font-size="8" font-weight="700" fill="#64748b" letter-spacing="1" x="118">SYS_ACCESS</text>
+        <text class="txt-mono" font-size="10" font-weight="800" fill="#00ff9d" y="14" x="118">ROOT GRANTED</text>
+      </g>
+
+      <g transform="translate(26, 302)" class="txt-sans">
+        <!-- Specialization -->
+        <text font-size="8" font-weight="700" fill="#64748b" letter-spacing="1">SPECIALTY</text>
+        <text class="txt-mono" font-size="10" font-weight="700" fill="#00f3ff" y="14">SYSTEMS / HIGH-PERF</text>
+
+        <!-- Node ID -->
+        <text font-size="8" font-weight="700" fill="#64748b" letter-spacing="1" x="118">SECURITY HASH</text>
+        <text class="txt-mono" font-size="10" font-weight="700" fill="#94a3b8" y="14" x="118">0x262_MODI_SYS</text>
+      </g>
+
+      <!-- 5. Machine Scannable Barcode Engine Frame Components -->
+      <g transform="translate(32, 348)">
+        <!-- Barcode background plate -->
+        <rect x="-4" y="-3" width="194" height="40" rx="3" fill="#000000" fill-opacity="0.4"/>
+        <rect x="0" width="3" height="26" fill="#00f3ff" opacity="0.9"/>
+        <rect x="5" width="5" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="13" width="2" height="26" fill="#00ff9d" opacity="0.9"/>
+        <rect x="18" width="7" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="29" width="3" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="36" width="2" height="26" fill="#00f3ff" opacity="0.9"/>
+        <rect x="42" width="6" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="52" width="2" height="26" fill="#00ff9d" opacity="0.9"/>
+        <rect x="58" width="8" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="70" width="2" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="76" width="5" height="26" fill="#00f3ff" opacity="0.9"/>
+        <rect x="85" width="7" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="96" width="2" height="26" fill="#00ff9d" opacity="0.9"/>
+        <rect x="102" width="6" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="112" width="2" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="118" width="8" height="26" fill="#00f3ff" opacity="0.9"/>
+        <rect x="130" width="3" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="137" width="2" height="26" fill="#00ff9d" opacity="0.9"/>
+        <rect x="143" width="7" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="154" width="3" height="26" fill="#ffffff" opacity="0.85"/>
+        <rect x="161" width="5" height="26" fill="#00f3ff" opacity="0.9"/>
+        <rect x="170" width="4" height="26" fill="#00ff9d" opacity="0.9"/>
+        <rect x="178" width="5" height="26" fill="#ffffff" opacity="0.85"/>
+        <text class="txt-mono" font-size="8.5" fill="#64748b" x="93" y="36" text-anchor="middle" letter-spacing="2">01010010 01000001 01001010 00110010</text>
+      </g>
+
+      <!-- Bottom RFID NFC indicator -->
+      <g transform="translate(125, 404)">
+        <circle cx="-35" cy="-2" r="2.5" fill="#00ff9d"/>
+        <text class="txt-mono" font-size="8" font-weight="700" fill="#475569" text-anchor="middle" letter-spacing="1.5">RFID ENABLED // 13.56MHz</text>
+        <circle cx="35" cy="-2" r="2.5" fill="#00f3ff"/>
+      </g>
+
+      <!-- 6. Holographic Sweeping Gloss Overlayer Shield -->
+      <rect width="250" height="420" rx="22" fill="url(#holo-sweep)" pointer-events="none">
+        <animateTransform 
+          attributeName="transform" 
+          type="translate" 
+          values="-250,-250; 450,450; -250,-250" 
+          dur="6s" 
+          repeatCount="indefinite"
+          calcMode="spline"
+          keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+        />
+      </rect>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bu-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1e"/>
+      <stop offset="60%" stop-color="#040711"/>
+      <stop offset="100%" stop-color="#02040a"/>
+    </linearGradient>
+    <filter id="bu-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&amp;family=Inter:wght@600;700;800&amp;display=swap');
+      .txt-sans { font-family: 'Inter', system-ui, sans-serif; }
+      .txt-mono { font-family: 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="600" height="340" rx="16" fill="url(#bu-bg)" stroke="#00ff9d" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Title bar -->
+  <rect width="600" height="38" rx="16" fill="#0b1329" fill-opacity="0.9"/>
+  <circle cx="24" cy="19" r="5" fill="#ef4444"/>
+  <circle cx="42" cy="19" r="5" fill="#f59e0b"/>
+  <circle cx="60" cy="19" r="5" fill="#10b981"/>
+  <text class="txt-mono" font-size="11" font-weight="700" fill="#64748b" x="85" y="23">BURROW :: LINUX KERNEL &amp; CGROUPS V2 SANDBOX RUNTIME</text>
+  <text class="txt-mono" font-size="10" font-weight="800" fill="#00ff9d" x="510" y="23">[HARDENED]</text>
+
+  <!-- Metrics Grid -->
+  <g transform="translate(25, 55)">
+    <rect width="125" height="60" rx="8" fill="#0c1830" stroke="#1e293b" stroke-width="1"/>
+    <text class="txt-mono" font-size="9" fill="#64748b" x="12" y="20">SPIN-UP LATENCY</text>
+    <text class="txt-mono" font-size="16" font-weight="800" fill="#00ff9d" x="12" y="44">&lt; 0.85 ms</text>
+
+    <rect x="140" width="125" height="60" rx="8" fill="#0c1830" stroke="#1e293b" stroke-width="1"/>
+    <text class="txt-mono" font-size="9" fill="#64748b" x="152" y="20">ISOLATION</text>
+    <text class="txt-mono" font-size="16" font-weight="800" fill="#00f3ff" x="152" y="44">cgroups v2</text>
+
+    <rect x="280" width="125" height="60" rx="8" fill="#0c1830" stroke="#1e293b" stroke-width="1"/>
+    <text class="txt-mono" font-size="9" fill="#64748b" x="292" y="20">SECCOMP BPF</text>
+    <text class="txt-mono" font-size="16" font-weight="800" fill="#38bdf8" x="292" y="44">FILTERED</text>
+
+    <rect x="420" width="130" height="60" rx="8" fill="#022c22" stroke="#00ff9d" stroke-width="1"/>
+    <text class="txt-mono" font-size="9" fill="#6ee7b7" x="432" y="20">MEMORY LEAKS</text>
+    <text class="txt-mono" font-size="16" font-weight="800" fill="#00ff9d" x="432" y="44">0 DETECTED</text>
+  </g>
+
+  <!-- Sandbox Architecture Visual Box -->
+  <g transform="translate(25, 130)">
+    <rect width="550" height="155" rx="10" fill="#060c18" stroke="#1e293b" stroke-width="1"/>
+    <text class="txt-mono" font-size="10" font-weight="700" fill="#94a3b8" x="16" y="22">KERNEL NAMESPACES (PID, NET, MOUNT) &amp; PROCESS JIT QUOTAS</text>
+
+    <g transform="translate(20, 38)">
+      <!-- Unprivileged Userland -->
+      <rect x="0" y="0" width="160" height="65" rx="6" fill="#0e1726" stroke="#00f3ff"/>
+      <text class="txt-mono" font-size="10" font-weight="700" fill="#00f3ff" x="12" y="22">USER PROCESS</text>
+      <text class="txt-mono" font-size="8.5" fill="#94a3b8" x="12" y="38">Unprivileged UID</text>
+      <text class="txt-mono" font-size="8.5" fill="#64748b" x="12" y="52">Resource Bound</text>
+
+      <!-- Arrow -->
+      <line x1="165" y1="32" x2="190" y2="32" stroke="#00ff9d" stroke-width="2"/>
+
+      <!-- Seccomp BPF Gateway -->
+      <rect x="195" y="0" width="160" height="65" rx="6" fill="#022c22" stroke="#00ff9d"/>
+      <text class="txt-mono" font-size="10" font-weight="700" fill="#00ff9d" x="12" y="22" transform="translate(195, 0)">SECCOMP BPF</text>
+      <text class="txt-mono" font-size="8.5" fill="#6ee7b7" x="12" y="38" transform="translate(195, 0)">Syscall Trapping</text>
+      <text class="txt-mono" font-size="8.5" fill="#64748b" x="12" y="52" transform="translate(195, 0)">Zero Root Escalation</text>
+
+      <!-- Arrow -->
+      <line x1="360" y1="32" x2="385" y2="32" stroke="#38bdf8" stroke-width="2"/>
+
+      <!-- cgroups v2 Kernel Subsystem -->
+      <rect x="390" y="0" width="140" height="65" rx="6" fill="#082f49" stroke="#38bdf8"/>
+      <text class="txt-mono" font-size="10" font-weight="700" fill="#38bdf8" x="12" y="22" transform="translate(390, 0)">CGROUPS V2</text>
+      <text class="txt-mono" font-size="8.5" fill="#7dd3fc" x="12" y="38" transform="translate(390, 0)">Memory / CPU Core</text>
+      <text class="txt-mono" font-size="8.5" fill="#64748b" x="12" y="52" transform="translate(390, 0)">Strict Throttle</text>
+    </g>
+
+    <text class="txt-mono" font-size="9.5" fill="#00ff9d" x="20" y="132">Status: Sub-millisecond container teardown • Valgrind Verified 0 Leaks • C++20</text>
+  </g>
+
+  <!-- Bottom status -->
+  <g transform="translate(25, 312)" class="txt-mono" font-size="10" font-weight="700">
+    <circle cx="6" cy="-3" r="3.5" fill="#00ff9d"/>
+    <text fill="#00ff9d" x="16">HARDENED LINUX RUNTIME</text>
+    <text fill="#64748b" x="210">C++20 / LOW-LEVEL SYSTEMS</text>
+    <text fill="#38bdf8" x="430">ZERO ROOT PRIVILEGES</text>
+  </g>
+</svg>

@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 840" width="100%" height="100%">
+  <defs>
+    <!-- Cyberpunk Gradients -->
+    <radialGradient id="bg-glow" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#0a192f" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#040814" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#020409"/>
+    </radialGradient>
+
+    <linearGradient id="neon-cyan-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
+    </linearGradient>
+
+    <linearGradient id="glass-edge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.45"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="70%" stop-color="#00ff9d" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <linearGradient id="terminal-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090f1d" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#040711" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <radialGradient id="avatar-aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#00ff9d" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="cyan-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="emerald-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Typography Styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&amp;family=Inter:wght@400;600;700;800;900&amp;display=swap');
+      
+      .font-sans { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', monospace; }
+      
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      .cursor { animation: blink 1s infinite; fill: #00ff9d; }
+
+      @keyframes radar-spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .holo-radar {
+        transform-origin: 1140px 240px;
+        animation: radar-spin 14s linear infinite;
+      }
+
+      @keyframes scanline {
+        0% { transform: translateY(-50px); opacity: 0; }
+        50% { opacity: 0.8; }
+        100% { transform: translateY(840px); opacity: 0; }
+      }
+      .laser-scan {
+        animation: scanline 7s ease-in-out infinite;
+      }
+    </style>
+
+    <clipPath id="banner-avatar-clip">
+      <circle cx="1140" cy="240" r="75"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1440" height="840" fill="#020409"/>
+  <rect width="1440" height="840" fill="url(#bg-glow)"/>
+
+  <!-- Subtle Cyber Matrix Grid Texture -->
+  <g opacity="0.03" stroke="#00f3ff" stroke-width="1">
+    <pattern id="banner-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none"/>
+    </pattern>
+    <rect width="1440" height="840" fill="url(#banner-grid)"/>
+  </g>
+
+  <!-- Laser Scanning Line -->
+  <line class="laser-scan" x1="0" y1="0" x2="1440" y2="0" stroke="url(#neon-cyan-green)" stroke-width="1.5" opacity="0.5" filter="url(#cyan-glow)"/>
+
+  <!-- ================= TOP HUD TELEMETRY BAR ================= -->
+  <g transform="translate(50, 42)">
+    <rect width="1340" height="40" rx="10" fill="#050914" fill-opacity="0.8" stroke="url(#glass-edge)" stroke-width="1"/>
+    <circle cx="20" cy="20" r="4.5" fill="#00ff9d" filter="url(#emerald-glow)"/>
+    <text class="font-mono" font-size="11" font-weight="700" fill="#00ff9d" x="35" y="24" letter-spacing="1">SYSTEM: ONLINE</text>
+    
+    <text class="font-mono" font-size="11" font-weight="600" fill="#64748b" x="200" y="24" letter-spacing="1">NODE: <tspan fill="#38bdf8">DISTRIBUTED-LINUX</tspan></text>
+    <text class="font-mono" font-size="11" font-weight="600" fill="#64748b" x="430" y="24" letter-spacing="1">LATENCY: <tspan fill="#00ff9d">&lt; 15ms EDGE</tspan></text>
+    <text class="font-mono" font-size="11" font-weight="600" fill="#64748b" x="650" y="24" letter-spacing="1">CLEARANCE: <tspan fill="#00f3ff">LEVEL-07 ROOT</tspan></text>
+    <text class="font-mono" font-size="11" font-weight="600" fill="#64748b" x="890" y="24" letter-spacing="1">TESTS: <tspan fill="#00ff9d">1,164+ VERIFIED</tspan></text>
+    <text class="font-mono" font-size="11" font-weight="700" fill="#f8fafc" x="1140" y="24" letter-spacing="1.5">SLA: 99.99%</text>
+  </g>
+
+  <!-- ================= TOP LEFT: BRAND IDENTITY ================= -->
+  <g transform="translate(50, 105)">
+    <!-- Terminal Prompt Line -->
+    <text class="font-mono" font-size="14" font-weight="700" fill="#00f3ff" opacity="0.9">rajmodi@sys-core:<tspan fill="#00ff9d">~</tspan><tspan fill="#ffffff">$ whoami --role --systems</tspan></text>
+    
+    <!-- Title / Main Identity -->
+    <text class="font-sans" font-size="44" font-weight="900" fill="#ffffff" y="58" letter-spacing="-0.5">Raj Modi</text>
+    
+    <!-- Senior Sub-Headline -->
+    <text class="font-mono" font-size="14" font-weight="800" fill="#00ff9d" y="90" letter-spacing="2.5">PRINCIPAL SYSTEMS &amp; AI ARCHITECT // HIGH-PERFORMANCE COMPUTING</text>
+    <text class="font-sans" font-size="14" font-weight="500" fill="#94a3b8" y="116">Specializing in distributed systems, kernel isolation runtimes, and automated statistical AI verification engines.</text>
+  </g>
+
+  <!-- ================= LEFT COLUMN: ADVANCED CODE WINDOW ================= -->
+  <g transform="translate(50, 245)">
+    <!-- Terminal Window Container -->
+    <rect width="840" height="290" rx="14" fill="url(#terminal-glass)" stroke="url(#glass-edge)" stroke-width="1.5" filter="url(#subtle-glow)"/>
+    
+    <!-- Terminal Title Bar -->
+    <rect width="840" height="34" rx="14" fill="#0b1329" fill-opacity="0.8"/>
+    <circle cx="20" cy="17" r="4.5" fill="#ef4444"/>
+    <circle cx="36" cy="17" r="4.5" fill="#f59e0b"/>
+    <circle cx="52" cy="17" r="4.5" fill="#10b981"/>
+    <text class="font-mono" font-size="11" font-weight="600" fill="#64748b" x="75" y="21" letter-spacing="1">~/systems_architect_profile.ts — HIGH-PERFORMANCE ENGINE</text>
+    <text class="font-mono" font-size="10" font-weight="700" fill="#00ff9d" x="720" y="21">[TypeScript 5.x]</text>
+
+    <!-- Syntax-Highlighted Code Editor Content -->
+    <g transform="translate(25, 60)" class="font-mono" font-size="13" font-weight="600">
+      <text y="0"><tspan fill="#38bdf8">interface</tspan> <tspan fill="#00ff9d">SystemsArchitectProfile</tspan> <tspan fill="#ffffff">{</tspan></text>
+      
+      <text y="24" x="20"><tspan fill="#94a3b8">engineer:</tspan> <tspan fill="#f59e0b">"Raj Modi"</tspan><tspan fill="#ffffff">;</tspan></text>
+      
+      <text y="48" x="20"><tspan fill="#94a3b8">clearance:</tspan> <tspan fill="#00f3ff">"Root / Level-07 Principal"</tspan><tspan fill="#ffffff">;</tspan></text>
+
+      <text y="72" x="20"><tspan fill="#94a3b8">coreCompetencies:</tspan> <tspan fill="#ffffff">[</tspan><tspan fill="#f59e0b">"C++20"</tspan><tspan fill="#ffffff">, </tspan><tspan fill="#f59e0b">"Python 3.12"</tspan><tspan fill="#ffffff">, </tspan><tspan fill="#f59e0b">"Go"</tspan><tspan fill="#ffffff">, </tspan><tspan fill="#f59e0b">"DuckDB"</tspan><tspan fill="#ffffff">, </tspan><tspan fill="#f59e0b">"Linux Systems"</tspan><tspan fill="#ffffff">];</tspan></text>
+
+      <text y="96" x="20"><tspan fill="#94a3b8">architectureTenet:</tspan> <tspan fill="#f59e0b">"Deterministic verification, zero-race concurrency, sub-millisecond p95 latency"</tspan><tspan fill="#ffffff">;</tspan></text>
+
+      <text y="120" x="20"><tspan fill="#94a3b8">runtimeMetrics:</tspan> <tspan fill="#ffffff">{ </tspan><tspan fill="#94a3b8">verifiedTests:</tspan> <tspan fill="#00ff9d">"1,164+"</tspan><tspan fill="#ffffff">, </tspan><tspan fill="#94a3b8">codeScale:</tspan> <tspan fill="#00f3ff">"108,000+ LOC"</tspan><tspan fill="#ffffff">, </tspan><tspan fill="#94a3b8">p95Latency:</tspan> <tspan fill="#f59e0b">"71ms"</tspan> <tspan fill="#ffffff">};</tspan></text>
+
+      <text y="144"><tspan fill="#ffffff">}</tspan></text>
+
+      <!-- Executing Command Line -->
+      <line x1="0" y1="165" x2="790" y2="165" stroke="#1e293b" stroke-width="1"/>
+      <text y="192" fill="#00f3ff">rajmodi@prod:<tspan fill="#38bdf8">~/synthproof</tspan><tspan fill="#ffffff">$ pytest --benchmark-only &amp;&amp; ./run_concurrency_audit</tspan></text>
+      <text y="214" fill="#00ff9d">✔ 140+ test suites passed with 0 warnings. 1,164+ tests verified in CI/CD pipeline.</text>
+      <rect class="cursor" x="605" y="202" width="8" height="15"/>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: HOLOGRAPHIC AVATAR & RADAR ================= -->
+  <g transform="translate(920, 110)">
+    <!-- Glass Plate Container -->
+    <rect width="470" height="425" rx="16" fill="url(#terminal-glass)" stroke="url(#glass-edge)" stroke-width="1.5" filter="url(#subtle-glow)"/>
+
+    <!-- Header -->
+    <rect width="470" height="34" rx="16" fill="#0b1329" fill-opacity="0.8"/>
+    <text class="font-mono" font-size="11" font-weight="700" fill="#00f3ff" x="20" y="21" letter-spacing="1">HOLOGRAPHIC TELEMETRY // AVATAR</text>
+    <text class="font-mono" font-size="10" font-weight="700" fill="#00ff9d" x="350" y="21">[AUTHENTICATED]</text>
+
+    <!-- Radar Target Rings -->
+    <g transform="translate(235, 155)">
+      <circle r="95" fill="url(#avatar-aura)"/>
+      <circle class="holo-radar" r="90" fill="none" stroke="#00f3ff" stroke-width="1.5" stroke-dasharray="10,6,2,6" opacity="0.8"/>
+      <circle r="82" fill="none" stroke="#00ff9d" stroke-width="2" filter="url(#emerald-glow)"/>
+      
+      <!-- Crosshairs -->
+      <line x1="-105" y1="0" x2="105" y2="0" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="0" y1="-105" x2="0" y2="105" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+
+      <!-- Real HD Portrait Image / Core Badge -->
+      <image href="https://avatars.githubusercontent.com/u/83870631?v=4" x="-75" y="-75" width="150" height="150" clip-path="url(#banner-avatar-clip)"/>
+      <circle r="75" fill="none" stroke="#00f3ff" stroke-width="1.5" opacity="0.6"/>
+    </g>
+
+    <!-- Identification Details Under Avatar -->
+    <g transform="translate(235, 305)" text-anchor="middle">
+      <text class="font-sans" font-size="20" font-weight="900" fill="#ffffff" letter-spacing="0.5">RAJ MODI</text>
+      <text class="font-mono" font-size="11" font-weight="700" fill="#00f3ff" y="22" letter-spacing="2">@rajmodi262</text>
+      
+      <rect x="-105" y="34" width="210" height="24" rx="6" fill="#022c22" stroke="#00ff9d" stroke-width="1"/>
+      <text class="font-mono" font-size="9.5" font-weight="800" fill="#00ff9d" y="50" letter-spacing="1.5">VERIFIED SYSTEMS ARCHITECT</text>
+      
+      <!-- Telemetry Subtext -->
+      <text class="font-mono" font-size="9.5" font-weight="600" fill="#64748b" y="84" letter-spacing="1">108K+ LOC AUDITED // 1,164+ TESTS PASS</text>
+      <text class="font-mono" font-size="9.5" font-weight="600" fill="#38bdf8" y="100" letter-spacing="1">RANK: S+ // TOP 0.1%</text>
+    </g>
+  </g>
+
+  <!-- ================= MIDDLE ROW: TECH ARSENAL MATRIX PILLS ================= -->
+  <g transform="translate(50, 560)">
+    <!-- Row 1: Core Technologies -->
+    <g transform="translate(0, 15)">
+      <rect width="110" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00f3ff" x="55" y="20" text-anchor="middle">C++20 / STL</text>
+
+      <rect x="120" width="125" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00ff9d" x="182.5" y="20" text-anchor="middle">Python 3.12</text>
+
+      <rect x="255" width="105" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#38bdf8" x="307.5" y="20" text-anchor="middle">Go / Concurrency</text>
+
+      <rect x="370" width="135" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00ff9d" x="437.5" y="20" text-anchor="middle">DuckDB Engine</text>
+
+      <rect x="515" width="130" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#38bdf8" x="580" y="20" text-anchor="middle">Linux Systems</text>
+
+      <rect x="655" width="140" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00f3ff" x="725" y="20" text-anchor="middle">Docker / cgroups</text>
+
+      <rect x="805" width="130" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00ff9d" x="870" y="20" text-anchor="middle">PostgreSQL / ACID</text>
+
+      <rect x="945" width="125" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#38bdf8" x="1007.5" y="20" text-anchor="middle">Redis In-Memory</text>
+
+      <rect x="1080" width="125" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00ff9d" x="1142.5" y="20" text-anchor="middle">PyArrow / Parquet</text>
+
+      <rect x="1215" width="125" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#ef4444" x="1277.5" y="20" text-anchor="middle">SHA-256 Merkle</text>
+    </g>
+
+    <!-- Row 2: Verification, OS & Infrastructure Tools -->
+    <g transform="translate(0, 60)">
+      <rect width="135" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#38bdf8" x="67.5" y="20" text-anchor="middle">NumPy / SciPy</text>
+
+      <rect x="145" width="145" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00ff9d" x="217.5" y="20" text-anchor="middle">seccomp-bpf Filters</text>
+
+      <rect x="300" width="130" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#ffffff" x="365" y="20" text-anchor="middle">Git / GitHub Actions</text>
+
+      <rect x="440" width="145" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#38bdf8" x="512.5" y="20" text-anchor="middle">Monte Carlo Tests</text>
+
+      <rect x="595" width="125" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#f59e0b" x="657.5" y="20" text-anchor="middle">WebSockets / gRPC</text>
+
+      <rect x="730" width="130" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00ff9d" x="795" y="20" text-anchor="middle">Streamlit / Web</text>
+
+      <rect x="870" width="135" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#f59e0b" x="937.5" y="20" text-anchor="middle">OpenCV / Vision</text>
+
+      <rect x="1015" width="155" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#ffffff" x="1092.5" y="20" text-anchor="middle">Prometheus Telemetry</text>
+
+      <rect x="1180" width="160" height="32" rx="8" fill="#0a1224" stroke="url(#glass-edge)" stroke-width="1"/>
+      <text class="font-mono" font-size="11.5" font-weight="700" fill="#00ff9d" x="1260" y="20" text-anchor="middle">1,164+ Test Suites</text>
+    </g>
+  </g>
+
+  <!-- ================= VERY BOTTOM FOOTER: CONNECT & VERIFIED PROTOCOLS ================= -->
+  <g transform="translate(50, 685)">
+    <!-- Connected Channels Plate -->
+    <rect width="860" height="95" rx="14" fill="#060c1a" fill-opacity="0.9" stroke="url(#glass-edge)" stroke-width="1"/>
+    <text class="font-mono" font-size="12" font-weight="700" fill="#00ff9d" x="25" y="30" letter-spacing="1">AUTHENTICATED COMMS CHANNELS &amp; VERIFIED SYSTEMS</text>
+    
+    <g transform="translate(25, 62)" class="font-mono" font-size="12.5" font-weight="700">
+      <text fill="#ffffff">FLAGSHIP: <tspan fill="#00f3ff">SynthProof (29GB / 80M Rows / DuckDB Engine)</tspan></text>
+      <text x="560" fill="#ffffff">GITHUB: <tspan fill="#38bdf8">github.com/rajmodi262</tspan></text>
+    </g>
+
+    <!-- Terminal Footer Block -->
+    <g transform="translate(880, 0)">
+      <rect width="460" height="95" rx="14" fill="#050914" fill-opacity="0.95" stroke="url(#glass-edge)" stroke-width="1"/>
+      <g transform="translate(20, 32)" class="font-mono" font-size="12.5">
+        <text fill="#64748b">STATUS: <tspan fill="#00ff9d">DEPLOY READY // ZERO REGRESSIONS</tspan></text>
+        <text y="24" fill="#94a3b8">MOTTO: <tspan fill="#ffffff">"Deterministic code. Rigorous automated verification."</tspan></text>
+        <text y="46" fill="#38bdf8">ENCRYPT: <tspan fill="#64748b">SHA-256 // VERIFIED ARCHITECT</tspan></text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Outer Neon Synth Frame Borders Wrapper -->
+  <rect x="20" y="20" width="1400" height="800" rx="20" fill="none" stroke="url(#neon-cyan-green)" stroke-width="1.5" opacity="0.4"/>
+</svg>
