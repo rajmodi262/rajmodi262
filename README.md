@@ -23,7 +23,7 @@
 
 <!-- ================= 5. HOLOGRAPHIC SYSTEMS COMMAND HUD & SECURITY TELEMETRY ================= -->
 <p align="center">
-  <img src="./titanium_hud.svg" alt="Midnight Titanium Systems Command HUD & Production Telemetry" width="100%">
+  <img src="./titanium_hud_v2.svg" alt="Midnight Titanium Systems Command HUD & Production Telemetry" width="100%">
 </p>
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
