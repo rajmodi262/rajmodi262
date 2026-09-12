@@ -94,6 +94,10 @@
     <clipPath id="avatar-circle">
       <circle cx="125" cy="115" r="44"/>
     </clipPath>
+
+    <clipPath id="card-clip">
+      <rect width="250" height="420" rx="22"/>
+    </clipPath>
   </defs>
 
   <!-- ================= PENDULUM SWING CONTAINER ================= -->
@@ -163,7 +167,7 @@
       <circle cx="125" cy="115" r="46" fill="none" stroke="#00ff9d" stroke-width="2" filter="url(#neon-glow)"/>
 
       <!-- Actual High-Definition Developer Portrait / Core Crest -->
-      <image href="https://avatars.githubusercontent.com/u/83870631?v=4" x="81" y="71" width="88" height="88" clip-path="url(#avatar-circle)"/>
+      <image href="data:image/png;base64,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" x="81" y="71" width="88" height="88" clip-path="url(#avatar-circle)"/>
 
       <!-- Holographic Reticle Ring Overlay -->
       <circle cx="125" cy="115" r="44" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.25"/>
@@ -239,17 +243,19 @@
       </g>
 
       <!-- 6. Holographic Sweeping Gloss Overlayer Shield -->
-      <rect width="250" height="420" rx="22" fill="url(#holo-sweep)" pointer-events="none">
-        <animateTransform 
-          attributeName="transform" 
-          type="translate" 
-          values="-250,-250; 450,450; -250,-250" 
-          dur="6s" 
-          repeatCount="indefinite"
-          calcMode="spline"
-          keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
-        />
-      </rect>
+      <g clip-path="url(#card-clip)">
+        <rect width="250" height="420" rx="22" fill="url(#holo-sweep)" pointer-events="none">
+          <animateTransform 
+            attributeName="transform" 
+            type="translate" 
+            values="-250,-250; 450,450; -250,-250" 
+            dur="6s" 
+            repeatCount="indefinite"
+            calcMode="spline"
+            keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+          />
+        </rect>
+      </g>
     </g>
   </g>
 </svg>
