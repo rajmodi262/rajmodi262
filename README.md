@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ================= 1. CINEMATIC HEADER ================= -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d&height=260&section=header&text=Raj%20Modi&fontSize=64&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Software%20Development%20Engineer%20%7C%20Data%20Scientist%20%26%20Analyst%20%7C%20QA%20Tools%20%26%20Test%20Development&descAlignY=58&descSize=16&descFontColor=00f3ff&stroke=00f3ff&strokeWidth=1" />
+<img width="100%" src="./header.svg" alt="Raj Modi - Software Development Engineer | Data Scientist & Analyst | QA Tools & Test Development" />
 
 <br/>
 
