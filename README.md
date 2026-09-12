@@ -32,17 +32,10 @@
 
 ---
 
-<!-- ================= 5. 3D LANYARD & PRODUCTION STATS ================= -->
-<table border="0" width="100%" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="42%" align="center" valign="top">
-      <img src="./lanyard_badge.svg?v=5" alt="Staff Systems Architect ID Badge" width="100%">
-    </td>
-    <td width="58%" align="center" valign="top">
-      <img src="./telemetry_hud.svg?v=5" alt="Production Telemetry & Radar" width="100%">
-    </td>
-  </tr>
-</table>
+<!-- ================= 5. HOLOGRAPHIC SYSTEMS COMMAND HUD & SECURITY TELEMETRY ================= -->
+<p align="center">
+  <img src="./telemetry_hud.svg?v=6" alt="Holographic Systems Command HUD & Production Telemetry" width="100%">
+</p>
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
 <p align="center">
