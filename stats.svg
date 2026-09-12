@@ -108,8 +108,8 @@
   <!-- ================= CARD HEADER ================= -->
   <g transform="translate(35, 34)">
     <circle class="pulse-beacon" cx="0" cy="0" r="5" fill="#00ff9d" filter="url(#emerald-glow)"/>
-    <text class="txt-sans" font-size="13" font-weight="800" fill="#94a3b8" x="16" y="4" letter-spacing="1.5">PRODUCTION TELEMETRY &amp; METRICS</text>
-    <text class="txt-mono" font-size="10" font-weight="700" fill="#00ff9d" x="250" y="4" letter-spacing="1">[ SLA: 100% VERIFIED ]</text>
+    <text class="txt-sans" font-size="13" font-weight="800" fill="#94a3b8" x="16" y="4" letter-spacing="1.5">PRODUCTION TELEMETRY</text>
+    <text class="txt-mono" font-size="10" font-weight="700" fill="#00ff9d" x="225" y="4" letter-spacing="1">[ SLA: 100% VERIFIED ]</text>
   </g>
 
   <!-- ================= LEFT COLUMN: PRODUCTION METRIC ROWS ================= -->

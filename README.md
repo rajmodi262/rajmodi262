@@ -25,24 +25,24 @@
 
 <!-- ================= 4. COMMAND CENTER HUD BANNER ================= -->
 <p align="center">
-  <img src="./banner.svg?v=2" alt="Developer Command Center HUD" width="100%">
+  <img src="./banner.svg?v=3" alt="Developer Command Center HUD" width="100%">
 </p>
 
 <!-- ================= 5. 3D LANYARD & PRODUCTION STATS ================= -->
 <table border="0" width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="42%" align="center" valign="top">
-      <img src="./lanyard.svg?v=2" alt="Staff Systems Architect ID Badge" width="100%">
+      <img src="./lanyard.svg?v=3" alt="Staff Systems Architect ID Badge" width="100%">
     </td>
     <td width="58%" align="center" valign="top">
-      <img src="./stats.svg?v=2" alt="Production Telemetry & Radar" width="100%">
+      <img src="./stats.svg?v=3" alt="Production Telemetry & Radar" width="100%">
     </td>
   </tr>
 </table>
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
 <p align="center">
-  <img src="./pipeline.svg?v=2" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
+  <img src="./pipeline.svg?v=3" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
 </p>
 
 ---
