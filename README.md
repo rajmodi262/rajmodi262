@@ -1,16 +1,19 @@
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+    <img alt="Raj Modi's GitHub Profile" src="dark_mode.svg" width="100%" />
+  </picture>
+</div>
 
-  <h1>⚡ Raj Modi</h1>
-  <p><strong>Systems & Distributed Infrastructure • AI Verification • High-Performance Computing</strong></p>
-  
-  <p>
-    <a href="mailto:rajmodi262@gmail.com"><img src="https://img.shields.io/badge/Email-rajmodi262%40gmail.com-00C853?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-    &nbsp;
-    <a href="https://linkedin.com/in/rajmodi2004/"><img src="https://img.shields.io/badge/LinkedIn-Raj%20Modi-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    &nbsp;
-    <a href="https://github.com/rajmodi262"><img src="https://img.shields.io/badge/GitHub-rajmodi262-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  </p>
+<br>
 
+<div align="center">
+  <a href="mailto:rajmodi262@gmail.com"><img src="https://img.shields.io/badge/Email-rajmodi262%40gmail.com-00C853?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/rajmodi2004/"><img src="https://img.shields.io/badge/LinkedIn-Raj%20Modi-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://github.com/rajmodi262"><img src="https://img.shields.io/badge/GitHub-rajmodi262-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
 
 <br>
