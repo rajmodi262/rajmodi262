@@ -1,334 +1,240 @@
 <div align="center">
 
-```text
-  ██████╗  █████╗      ██╗    ███╗   ███╗ ██████╗ ██████╗ ██╗
-  ██╔══██╗██╔══██╗     ██║    ████╗ ████║██╔═══██╗██╔══██╗██║
-  ██████╔╝███████║     ██║    ██╔████╔██║██║   ██║██║  ██║██║
-  ██╔══██╗██╔══██║██   ██║    ██║╚██╔╝██║██║   ██║██║  ██║██║
-  ██║  ██║██║  ██║╚█████╔╝    ██║ ╚═╝ ██║╚██████╔╝██████╔╝██║
-  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝     ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚═╝
-```
-
-<code>[ 🔴 🟡 🟢 ] <b>rajmodi@kernel-core: ~ (x86_64-linux-gnu / 5.15.0-systems)</b></code>
-
-<br><br>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=19&pause=1000&color=00FF66&center=true&vCenter=true&width=860&lines=%24+.%2Fsystem_diagnostic+--deep-scan+--all-subsystems;%5BAUDIT%5D+1%2C160%2B+Automated+Tests+across+140%2B+Test+Suites;%5BCORE%5D+Systems+Programming+%E2%80%A2+AI+Verification+%E2%80%A2+Linux+Internals;%5BRUNTIME%5D+Python+%E2%80%A2+C%2B%2B+%E2%80%A2+Go+%E2%80%A2+Java+21+%E2%80%A2+DuckDB+%E2%80%A2+cgroups+v2" alt="Typing SVG" />
-</a>
-
-<br><br>
-
-<a href="mailto:rajmodi262@gmail.com"><img src="https://img.shields.io/badge/Terminal-rajmodi262%40gmail.com-00C853?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://linkedin.com/in/rajmodi2004/"><img src="https://img.shields.io/badge/Network-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/rajmodi262"><img src="https://img.shields.io/badge/Codebase-100K%2B%20LOC-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-<img src="https://img.shields.io/badge/Verification-1%2C160%2B%20Automated%20Tests-00E676?style=flat-square&logo=pytest&logoColor=black" alt="Tests" />
-<img src="https://img.shields.io/badge/Suites-140%2B%20Suites-00B0FF?style=flat-square" alt="Suites" />
-
-<br><br>
-
-```text
-[ QUICK NAVIGATION CONSOLE ]
-[ 🛰️ System Telemetry ]   [ 📐 Interactive Topology ]   [ 🔬 Test Audit Matrix ]
-[ 💻 CLI Subsystem Drawers ]   [ 🧰 Systems Toolchain ]   [ ⚡ Execution Diagnostic ]
-```
+  <h1>⚡ Raj Modi</h1>
+  <p><strong>Systems & Distributed Infrastructure • AI Verification • High-Performance Computing</strong></p>
+  
+  <p>
+    <a href="mailto:rajmodi262@gmail.com"><img src="https://img.shields.io/badge/Email-rajmodi262%40gmail.com-00C853?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+    &nbsp;
+    <a href="https://linkedin.com/in/rajmodi2004/"><img src="https://img.shields.io/badge/LinkedIn-Raj%20Modi-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    &nbsp;
+    <a href="https://github.com/rajmodi262"><img src="https://img.shields.io/badge/GitHub-rajmodi262-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  </p>
 
 </div>
 
+<br>
+
+<!-- ==================== BENTO METRIC STATS ==================== -->
+
+<table width="100%" border="0" cellspacing="8" cellpadding="0">
+  <tr>
+    <td width="25%" align="center" style="background:#0d1117; border:1px solid #30363d; border-radius:8px; padding:16px;">
+      <h2 style="margin:0; color:#00E676;">1,164+</h2>
+      <p style="margin:4px 0 0 0; color:#8b949e; font-size:12px;"><b>AUTOMATED TESTS</b></p>
+      <span style="color:#58a6ff; font-size:11px;">140+ Test Suites across 12 Repos</span>
+    </td>
+    <td width="25%" align="center" style="background:#0d1117; border:1px solid #30363d; border-radius:8px; padding:16px;">
+      <h2 style="margin:0; color:#00B0FF;">108,000+</h2>
+      <p style="margin:4px 0 0 0; color:#8b949e; font-size:12px;"><b>LINES OF CODE</b></p>
+      <span style="color:#58a6ff; font-size:11px;">Python, Modern C++, Go, Java 21</span>
+    </td>
+    <td width="25%" align="center" style="background:#0d1117; border:1px solid #30363d; border-radius:8px; padding:16px;">
+      <h2 style="margin:0; color:#7928CA;">0 FAILS</h2>
+      <p style="margin:4px 0 0 0; color:#8b949e; font-size:12px;"><b>RACE CONDITIONS</b></p>
+      <span style="color:#58a6ff; font-size:11px;">CAS Atomic Locks & Memory Clean</span>
+    </td>
+    <td width="25%" align="center" style="background:#0d1117; border:1px solid #30363d; border-radius:8px; padding:16px;">
+      <h2 style="margin:0; color:#FF9100;">71 ms</h2>
+      <p style="margin:4px 0 0 0; color:#8b949e; font-size:12px;"><b>p95 QUERY LATENCY</b></p>
+      <span style="color:#58a6ff; font-size:11px;">80M CMS Rows in DuckDB Marts</span>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 ---
 
-### 🛰️ SYSTEM SPECIFICATION & ARCHITECTURAL TELEMETRY
-
-```yaml
-# ==============================================================================
-# CANDIDATE TELEMETRY & SYSTEM INVARIANTS
-# ==============================================================================
-Architect: Raj Modi
-Discipline: Systems Engineering, AI Verification & High-Throughput Infrastructure
-Status: PRODUCTION_CERTIFIED [🟢 1,164 TESTS PASSING, 0 FAILS, 0 RACE CONDITIONS]
-
-Global_Audit_Metrics:
-  Total_Automated_Tests:  1,164+ (Unit, Integration, Concurrency, Regression)
-  Total_Test_Suites:      140+ Test Suites across 12 Open-Source Repositories
-  Total_Production_LOC:   108,000+ Lines of Audited Code
-  Core_Stack:             Python 3.11, Modern C++, Go, Java 21, Linux Syscalls, Docker
-
-Architectural_Invariants:
-  - Deterministic Privacy Auditing:  Steinke Monte Carlo empirical lower-bound bounds
-  - Memory & Resource Bounds:        Linux cgroups v2 quota throttling & seccomp BPF
-  - High-Concurrency Correctness:    Mutual-exclusion CAS locks with 0 race hazards
-  - Streaming Performance:           Sub-100ms p95 latency over 1.38M records in DuckDB
-```
-
----
-
-### 📐 INTERACTIVE SYSTEMS TOPOLOGY ARCHITECTURE
+### 📐 Systems & Verification Topology
 
 ```mermaid
 graph TD
-  classDef source fill:#0D1117,stroke:#00E676,stroke-width:1.5px,color:#00E676,font-family:monospace;
-  classDef sandbox fill:#161B22,stroke:#00B0FF,stroke-width:1.5px,color:#00B0FF,font-family:monospace;
-  classDef engine fill:#1A1E24,stroke:#7928CA,stroke-width:1.5px,color:#E6EDF3,font-family:monospace;
-  classDef verify fill:#0A2518,stroke:#00FF66,stroke-width:2px,color:#FFFFFF,font-family:monospace;
+  classDef source fill:#0D1117,stroke:#00E676,stroke-width:1.5px,color:#00E676;
+  classDef sandbox fill:#161B22,stroke:#00B0FF,stroke-width:1.5px,color:#00B0FF;
+  classDef engine fill:#1A1E24,stroke:#7928CA,stroke-width:1.5px,color:#E6EDF3;
+  classDef verify fill:#0A2518,stroke:#00FF66,stroke-width:2px,color:#FFFFFF;
 
-  subgraph Ingestion & Sensor Streams
-    A[Telemetry Data & Sensor Streams]:::source --> B[AquaScan: Real-Time CV & Outlier Detection]:::source
+  subgraph Ingestion & Telemetry
+    A[Raw Data Ingest & Sensor Streams]:::source --> B[AquaScan: Real-Time CV & Anomaly Scoring]:::source
     A --> C[PharmaTarget: 29GB Streaming DuckDB Marts]:::source
     A --> D[MissionOS: 3D Simulation Telemetry Deck]:::source
   end
 
-  subgraph Kernel Sandboxes & Concurrency Engines
-    E[burrow: Linux OCI Container]:::sandbox --> F[cgroups v2 Quota Throttling & seccomp BPF]:::sandbox
+  subgraph Kernel Sandboxes & Concurrency
+    E[burrow: Linux Container Runtime]:::sandbox --> F[cgroups v2 Quotas & seccomp BPF]:::sandbox
     G[SnapPark: 1,000 Parallel Workers]:::sandbox --> H[Atomic CAS + SELECT FOR UPDATE]:::sandbox
   end
 
-  subgraph Statistical Verification & Proof
-    B --> I[Automated Assertion Gates]:::engine
+  subgraph Automated Verification Gates
+    B --> I[Automated Assertion Pipeline]:::engine
     C --> I
     D --> I
     F --> I
     H --> I
-    I --> J[SynthProof: Steinke Monte Carlo Audit]:::verify
-    J --> K[Tamper-Proof SHA-256 Chained Verification Ledger]:::verify
+    I --> J[SynthProof: Steinke Monte Carlo Privacy Audit]:::verify
+    J --> K[Tamper-Proof SHA-256 Chained Ledger]:::verify
   end
 ```
 
 ---
 
-### 🔬 REPOSITORY TEST & VERIFICATION AUDIT MATRIX
+### 🛡️ Flagship Systems Showcase
 
-*Audited test metrics extracted directly from repository test suites:*
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <!-- Card 1: SynthProof -->
+    <td width="50%" valign="top" style="background:#0d1117; border:1px solid #30363d; border-radius:10px; padding:20px;">
+      <h3 style="margin-top:0; color:#00E676;">🔬 SynthProof</h3>
+      <p style="color:#8b949e; font-size:13px; margin-bottom:12px;"><b>Empirical AI Verification & Privacy Claims Gate</b></p>
+      <div>
+        <img src="https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+        <img src="https://img.shields.io/badge/68_Suites-600+_Tests-00E676?style=flat-square" />
+      </div>
+      <br>
+      <ul style="color:#c9d1d9; font-size:13px; line-height:1.6; padding-left:18px;">
+        <li><b>Monte Carlo Empirical Bounds:</b> Implemented Steinke membership-inference attack testing validating generative DP-SGD bounds $(\varepsilon, \delta)$ under empirical saturation.</li>
+        <li><b>Automated Claims Gate:</b> Continuous test runner automatically rejects model checkpoints exhibiting statistical privacy leakage beyond theoretical thresholds.</li>
+        <li><b>Cryptographic Proof Ledger:</b> Chained SHA-256 state hashes generate immutable verification certificates for every automated run.</li>
+      </ul>
+      <p style="margin-bottom:0;">
+        <a href="https://github.com/rajmodi262/SynthProof"><b>Explore Verification Architecture ➔</b></a>
+      </p>
+    </td>
+    <!-- Card 2: SnapPark -->
+    <td width="50%" valign="top" style="background:#0d1117; border:1px solid #30363d; border-radius:10px; padding:20px;">
+      <h3 style="margin-top:0; color:#00B0FF;">⚡ SnapPark</h3>
+      <p style="color:#8b949e; font-size:13px; margin-bottom:12px;"><b>High-Concurrency Lock Contention & Stress Harness</b></p>
+      <div>
+        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white" />
+        <img src="https://img.shields.io/badge/JaCoCo-CI_Coverage-blue?style=flat-square" />
+      </div>
+      <br>
+      <ul style="color:#c9d1d9; font-size:13px; line-height:1.6; padding-left:18px;">
+        <li><b>Per-Slot Atomic CAS Manager:</b> Engineered fine-grained lock arbitration using <code>ConcurrentHashMap.putIfAbsent</code> paired with row-level database locks.</li>
+        <li><b>Multi-Threaded Saturation Harness:</b> Formulated parallel stress tests with 1,000 competing virtual workers proving <b>0 double-booking anomalies</b> under saturation.</li>
+        <li><b>Automated CI Gates:</b> Strict line and branch coverage thresholds verified on every push via GitHub Actions.</li>
+      </ul>
+      <p style="margin-bottom:0;">
+        <a href="https://github.com/rajmodi262/SnapPark-Smart-Parking"><b>Explore Concurrency Harness ➔</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <!-- Card 3: burrow -->
+    <td width="50%" valign="top" style="background:#0d1117; border:1px solid #30363d; border-radius:10px; padding:20px;">
+      <h3 style="margin-top:0; color:#FF9100;">🐧 Burrow</h3>
+      <p style="color:#8b949e; font-size:13px; margin-bottom:12px;"><b>Linux Kernel Container Runtime & Sandbox Engine</b></p>
+      <div>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux_Kernel-cgroups_v2-FCC624?style=flat-square&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/seccomp_BPF-Isolation-red?style=flat-square" />
+      </div>
+      <br>
+      <ul style="color:#c9d1d9; font-size:13px; line-height:1.6; padding-left:18px;">
+        <li><b>Raw Kernel Isolation:</b> Built an educational OCI container runtime from scratch utilizing Linux PID, MOUNT, UTS, IPC, and NETWORK namespaces.</li>
+        <li><b>Resource Quota Fuzzing:</b> Configured <code>cgroups v2</code> controllers for CPU quota enforcement and memory limits under synthetic resource exhaustion.</li>
+        <li><b>Syscall Security Filtering:</b> Integrated <code>seccomp</code> BPF filters to intercept prohibited system calls at execution boundaries.</li>
+      </ul>
+      <p style="margin-bottom:0;">
+        <a href="https://github.com/rajmodi262/burrow"><b>Explore Container Runtime ➔</b></a>
+      </p>
+    </td>
+    <!-- Card 4: AquaScan & MissionOS -->
+    <td width="50%" valign="top" style="background:#0d1117; border:1px solid #30363d; border-radius:10px; padding:20px;">
+      <h3 style="margin-top:0; color:#7928CA;">🤖 AquaScan & MissionOS</h3>
+      <p style="color:#8b949e; font-size:13px; margin-bottom:12px;"><b>Robotics Computer Vision & 3D Simulation Testing</b></p>
+      <div>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+        <img src="https://img.shields.io/badge/YOLOv8-FF0000?style=flat-square" />
+        <img src="https://img.shields.io/badge/Selenium-E2E_Sim-43B02A?style=flat-square&logo=selenium&logoColor=white" />
+      </div>
+      <br>
+      <ul style="color:#c9d1d9; font-size:13px; line-height:1.6; padding-left:18px;">
+        <li><b>Adaptive Sensor Degradation Scoring:</b> Multi-scale grid analyzer with adaptive Z-score outlier detection identifying optical occlusion under turbid noise.</li>
+        <li><b>Real-Time Hybrid CV:</b> Combined deep YOLOv8 detection with classical LAB/HSV color-space segmentation for edge environments.</li>
+        <li><b>Simulation Test Automation:</b> MissionOS interactive 2D/3D Canvas telemetry visualizer backed by automated Selenium E2E suites under IEEE 830 specs.</li>
+      </ul>
+      <p style="margin-bottom:0;">
+        <a href="https://github.com/rajmodi262/AquaScan-Underwater-Trash-Detection"><b>Explore Robotics CV Engine ➔</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-| Repository | Domain & Architecture | Test Suites | Automated Tests | Source Scale | Formal Verification & Invariants Enforced |
+---
+
+### 🔬 Audited Repository Verification Matrix
+
+| Repository | Domain & Architecture | Test Suites | Automated Tests | Source Scale | Formal Invariants & Guarantees |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| [`SynthProof`](https://github.com/rajmodi262/SynthProof) | **Empirical AI Privacy Verification** | **68** | **600+** | 120+ / ~25,000 | Steinke Monte Carlo empirical bounds, automated claims gate, SHA-256 chained audit ledger |
-| [`pharmatarget`](https://github.com/rajmodi262/pharmatarget) | **High-Throughput Analytics (29GB Ingest)** | **11** | **166** | 65 / 11,000 | 80M row streaming DuckDB SQL marts, quantile regression with bootstrap CIs, 71ms p95 latency @ 1.38M rows |
-| [`coldspend`](https://github.com/rajmodi262/coldspend) | **Physics-Based Digital Twin** | **10** | **112** | 38 / 4,091 | Thermodynamic kinetic drift models, regression discontinuity at alarm thresholds, calibrated risk tests |
-| [`verita`](https://github.com/rajmodi262/verita) | **Financial Compliance & Risk Scoring** | **20** | **106** | 136 / 31,160 | Real-time ML risk scoring, NLP pipelines, PostgreSQL + DuckDB SQL transaction validation |
-| [`agentforge`](https://github.com/rajmodi262/agentforge) | **Multi-Agent State Machine Planning** | **12** | **82** | 124 / 12,851 | LangGraph 7-agent state transitions, live WebSocket arbitration, Pydantic JSON schema verification |
-| [`AquaScan`](https://github.com/rajmodi262/AquaScan-Underwater-Trash-Detection) | **Robotics CV & Sensor Anomaly Engine** | **3** | **45** | 38 / 5,520 | Hybrid YOLOv8 + Classical OpenCV (LAB/HSV color-space), adaptive Z-score outlier detection under sensor noise |
-| [`keystone`](https://github.com/rajmodi262/keystone) | **Change-Impact Blast-Radius Graph** | **7** | **25** | 62 / 4,386 | Conflict-aware RAG, topological change graph traversal, pgvector embedding contract validation |
-| [`SnapPark`](https://github.com/rajmodi262/SnapPark-Smart-Parking) | **Concurrent Lock Contention Engine** | **3** | **8** | 54 / 7,777 | Multi-threaded saturation tests, zero double-booking under extreme parallel load, JUnit 5 + JaCoCo CI gates |
-| [`procurement-risk`](https://github.com/rajmodi262/procurement-leadtime-risk-engine) | **Lead-Time Delay Prediction Engine** | **1** | **8** | 14 / 1,553 | DuckDB SQL OTIF/PPV/HHI analytics, XGBoost SHAP value stability, dual-sourcing optimizer tests |
-| [`siop-hub`](https://github.com/rajmodi262/siop-inventory-optimization-hub) | **Multi-Plant Inventory Optimization** | **2** | **8** | 13 / 1,883 | Holt-Winters demand forecasting, dynamic safety stock variance, automated data-quality governance |
-| [`burrow`](https://github.com/rajmodi262/burrow) | **Linux Container Runtime (cgroups/seccomp)** | **2** | **4** | 12 / 1,251 | Linux namespace isolation, `cgroups v2` CPU/memory quota throttling, `seccomp` BPF syscall filters |
-| [`MissionOS`](https://github.com/rajmodi262/MissionOS-Systems-Engineering-Platform) | **Systems Lifecycle Simulation Platform** | **1** | **E2E** | 25 / 3,552 | Canvas 2D/3D physics rendering, Selenium automated regression suite, IEEE 830 SRS specification |
+| [`SynthProof`](https://github.com/rajmodi262/SynthProof) | **Empirical AI Privacy Verification** | **68** | **600+** | 120+ / ~25,000 | Steinke Monte Carlo empirical bounds, automated claims gate, SHA-256 ledger |
+| [`pharmatarget`](https://github.com/rajmodi262/pharmatarget) | **High-Throughput Analytics (29GB Ingest)** | **11** | **166** | 65 / 11,000 | 80M row DuckDB SQL marts, quantile regression bootstrap CIs, 71ms p95 @ 1.38M |
+| [`coldspend`](https://github.com/rajmodi262/coldspend) | **Physics-Based Digital Twin** | **10** | **112** | 38 / 4,091 | Thermodynamic kinetic drift models, regression discontinuity at alarm thresholds |
+| [`verita`](https://github.com/rajmodi262/verita) | **Financial Compliance & Risk Scoring** | **20** | **106** | 136 / 31,160 | Real-time ML risk scoring, NLP pipelines, PostgreSQL + DuckDB SQL validation |
+| [`agentforge`](https://github.com/rajmodi262/agentforge) | **Multi-Agent State Machine Planning** | **12** | **82** | 124 / 12,851 | LangGraph 7-agent state transitions, live WebSocket arbitration, Pydantic schemas |
+| [`AquaScan`](https://github.com/rajmodi262/AquaScan-Underwater-Trash-Detection) | **Robotics CV & Sensor Anomaly Engine** | **3** | **45** | 38 / 5,520 | Hybrid YOLOv8 + Classical OpenCV, adaptive Z-score outlier detection |
+| [`keystone`](https://github.com/rajmodi262/keystone) | **Change-Impact Blast-Radius Graph** | **7** | **25** | 62 / 4,386 | Conflict-aware RAG, topological change graph traversal, pgvector validation |
+| [`SnapPark`](https://github.com/rajmodi262/SnapPark-Smart-Parking) | **Concurrent Lock Contention Engine** | **3** | **8** | 54 / 7,777 | Saturation-load concurrency tests, 0 double-booking anomalies, JUnit 5 + JaCoCo |
+| [`procurement-risk`](https://github.com/rajmodi262/procurement-leadtime-risk-engine) | **Lead-Time Delay Prediction Engine** | **1** | **8** | 14 / 1,553 | DuckDB SQL OTIF/PPV/HHI analytics, XGBoost SHAP value stability |
+| [`siop-hub`](https://github.com/rajmodi262/siop-inventory-optimization-hub) | **Multi-Plant Inventory Optimization** | **2** | **8** | 13 / 1,883 | Holt-Winters demand forecasting, dynamic safety stock variance |
+| [`burrow`](https://github.com/rajmodi262/burrow) | **Linux Container Runtime (cgroups/seccomp)** | **2** | **4** | 12 / 1,251 | Namespace isolation, `cgroups v2` CPU/memory quota throttling, `seccomp` BPF |
+| [`MissionOS`](https://github.com/rajmodi262/MissionOS-Systems-Engineering-Platform) | **Systems Lifecycle Simulation Platform** | **1** | **E2E** | 25 / 3,552 | Canvas 2D/3D physics rendering, Selenium automated regression suite |
 | **TOTALS** | **Audited Systems Infrastructure** | **140+** | **1,164+** | **590+ / 108,000+** | **Zero Race Conditions • AddressSanitizer Clean • Deterministic CI/CD** |
 
 ---
 
-### 💻 INTERACTIVE SUBSYSTEM INSPECTOR (CLICK COMMANDS TO EXPAND)
+### 🧰 Systems Toolchain & Technical Competencies
 
-```
-  ┌────────────────────────────────────────────────────────────────────────────┐
-  │         CLICK ANY COMMAND BELOW TO INSPECT SUBSYSTEM ARCHITECTURE          │
-  └────────────────────────────────────────────────────────────────────────────┘
-```
-
-<details open>
-<summary><b>▶ $ ./inspect_core --subsystem=synthproof --target=empirical-ai-audit --verbose</b></summary>
-<br>
-
-> **Repository:** [`rajmodi262/SynthProof`](https://github.com/rajmodi262/SynthProof) • `68 Test Suites` • `600+ Automated Tests`  
-> **Toolchain:** `Python 3.11` • `PyTest` • `NumPy` • `SciPy` • `SHA-256 Ledger` • `TypeScript`
-
-```python
-# SynthProof Automated Claims Gate (Empirical Steinke Privacy Audit)
-def test_empirical_audit_bounds_reject_privacy_leak():
-    """Verify Steinke empirical audit detects calibration drift before deployment."""
-    harness = SteinkeAuditor(mechanism="DP-SGD", target_epsilon=1.0, delta=1e-5)
-    empirical_eps_lower_bound = harness.run_monte_carlo_audit(trials=1000)
-    
-    # Automated assertion gate: empirical leakage must never violate theoretical bounds
-    assert empirical_eps_lower_bound <= harness.theoretical_epsilon, (
-        f"CRITICAL CLAIMS BREACH: Empirical eps ({empirical_eps_lower_bound:.3f}) "
-        f"exceeds theoretical guarantee ({harness.theoretical_epsilon})!"
-    )
-```
-
-* **Statistical Audit Engine:** Built a Monte Carlo empirical privacy auditing harness (Steinke lower-bound estimation) validating DP-SGD generative models.
-* **Cryptographic Tamper-Proof Ledger:** Chained SHA-256 hashes generate deterministic verification certificates for each run, ensuring audit trails are immutable.
-* **Continuous Multi-Dataset Stress Suite:** High-cardinality test suites running across healthcare, telecom, and financial demographic datasets.
-
-```text
-[TELEMETRY TRACE]
-✓ Monte Carlo Trials: 1,000 iterations executed
-✓ Measured Empirical Epsilon: 0.842 <= Theoretical Bound: 1.000 [PASS]
-✓ Chained Certificate Hash: a8f9c2e4...b71d9a04 (SHA-256 Verified)
-```
-</details>
+<table width="100%" border="0" cellspacing="4" cellpadding="8">
+  <tr>
+    <td width="25%" valign="top" style="background:#0d1117; border:1px solid #30363d; border-radius:6px;">
+      <b style="color:#00E676;">Systems & Languages</b><br><br>
+      <code>Python 3.11+</code><br>
+      <code>Modern C++ (17/20)</code><br>
+      <code>Go</code><br>
+      <code>Java 21</code><br>
+      <code>Bash / Shell</code>
+    </td>
+    <td width="25%" valign="top" style="background:#0d1117; border:1px solid #30363d; border-radius:6px;">
+      <b style="color:#00B0FF;">Testing & Verification</b><br><br>
+      <code>PyTest</code><br>
+      <code>JUnit 5</code><br>
+      <code>Selenium WebDriver</code><br>
+      <code>JaCoCo Coverage</code><br>
+      <code>AddressSanitizer</code>
+    </td>
+    <td width="25%" valign="top" style="background:#0d1117; border:1px solid #30363d; border-radius:6px;">
+      <b style="color:#FF9100;">OS & Kernel Primitives</b><br><br>
+      <code>Linux (Ubuntu/RHEL)</code><br>
+      <code>cgroups v2 Quotas</code><br>
+      <code>seccomp BPF</code><br>
+      <code>Docker / OCI</code><br>
+      <code>WSL2</code>
+    </td>
+    <td width="25%" valign="top" style="background:#0d1117; border:1px solid #30363d; border-radius:6px;">
+      <b style="color:#7928CA;">Compute, Vision & Data</b><br><br>
+      <code>OpenCV & YOLOv8</code><br>
+      <code>DuckDB (High-Throughput)</code><br>
+      <code>PostgreSQL</code><br>
+      <code>NumPy & SciPy</code><br>
+      <code>CUDA Concepts</code>
+    </td>
+  </tr>
+</table>
 
 <br>
-
-<details>
-<summary><b>▶ $ ./inspect_core --subsystem=burrow --target=linux-container-runtime --profile=security</b></summary>
-<br>
-
-> **Repository:** [`rajmodi262/burrow`](https://github.com/rajmodi262/burrow) • `Go` • `C / Linux Syscalls` • `cgroups v2` • `seccomp BPF`  
-> **Architecture:** OCI Runtime Specification • Namespace Isolation • Copy-On-Write Storage
-
-```bash
-$ ./burrow run --cpu-limit=50m --mem-limit=64M --isolate-syscalls rootfs /bin/stress_test
-[SYS] Initializing Linux PID, MOUNT, UTS, IPC, NETWORK namespaces...
-[SEC] Applying seccomp BPF syscall filter: Prohibiting dangerous sys_ptrace/sys_reboot
-[CGRP] cgroups v2 applied: cpu.max=50000 100000, memory.max=67108864
-[TEST] Executing test workload under synthetic resource starvation: PASS (Clean exit, 0 leaks)
-```
-
-* **Low-Level OS Primaries:** Implemented an OCI container runtime utilizing Linux kernel namespace isolation interfaces.
-* **Resource Exhaustion Testing:** Configured `cgroups v2` controllers to throttle CPU and memory, validating process stability under synthetic starvation.
-* **Syscall Security Interception:** Formulated `seccomp` BPF filter configurations to intercept and validate unauthorized kernel syscalls at sandbox boundaries.
-
-```text
-[KERNEL ISOLATION STATUS]
-✓ CLONE_NEWPID | CLONE_NEWNS | CLONE_NEWNET | CLONE_NEWUTS | CLONE_NEWIPC active
-✓ cgroups v2: memory.max=67108864 (64 MB enforced), cpu.max=50000/100000 (50% cap)
-✓ seccomp BPF: Prohibited syscalls intercepted with SECCOMP_RET_KILL
-```
-</details>
-
-<br>
-
-<details>
-<summary><b>▶ $ ./inspect_core --subsystem=snappark --target=concurrency-stress --threads=1000</b></summary>
-<br>
-
-> **Repository:** [`rajmodi262/SnapPark-Smart-Parking`](https://github.com/rajmodi262/SnapPark-Smart-Parking) • `3 Test Suites` • `JUnit 5` • `JaCoCo`  
-> **Toolchain:** `Java 21` • `ConcurrentHashMap` • `Virtual Threads` • `SELECT FOR UPDATE` • `PostgreSQL/SQLite`
-
-```
-  [1,000 Parallel Workers] ──► [ConcurrentHashMap + atomic putIfAbsent]
-                                      │
-                                      ▼
-                             [SELECT FOR UPDATE]
-                                      │
-                                      ▼
-                        [0 DOUBLE-BOOKING ANOMALIES]
-```
-
-* **Per-Slot Lock Manager:** Engineered mutual-exclusion concurrency primitives combining atomic in-memory CAS operations with database row-level locking.
-* **Multi-Threaded Saturation Harness:** JUnit 5 stress tests proving **0 race conditions or double-booking anomalies** under multi-threaded thread pool saturation.
-* **Strict CI Quality Gates:** Configured JaCoCo coverage validation enforcing branch and line coverage thresholds in automated GitHub Actions pipelines.
-
-```text
-[THREAD CONTROLLER TELEMETRY]
-✓ Worker Pool: 1,000 virtual threads contending for identical slot IDs
-✓ Collision Resolution: Atomic CAS putIfAbsent guarantees single lease owner
-✓ Data Invariant Check: 0 double-bookings detected across 50,000 cycles [PASS]
-```
-</details>
-
-<br>
-
-<details>
-<summary><b>▶ $ ./inspect_core --subsystem=pharmatarget --target=duckdb-streaming --records=80M</b></summary>
-<br>
-
-> **Repositories:** [`rajmodi262/pharmatarget`](https://github.com/rajmodi262/pharmatarget) & [`rajmodi262/coldspend`](https://github.com/rajmodi262/coldspend) • `21 Test Suites` • `278 Automated Tests`  
-> **Toolchain:** `Python` • `DuckDB` • `FastAPI` • `Quantile Regression` • `Physics Kinetic Models`
-
-```python
-# High-Throughput Ingestion & Quantile Regression Verification
-def test_streaming_duckdb_marts_throughput():
-    """Verify streaming ingestion handles 80M rows within strict memory budget."""
-    marts = DuckDBMart(memory_limit="2GB", threads=8)
-    latency_p95 = marts.benchmark_query_latency(sample_size=1_380_000)
-    
-    assert latency_p95 < 0.100, f"Latency degradation: p95 was {latency_p95 * 1000:.1f}ms (threshold 100ms)"
-```
-
-* **Streaming Ingest Pipeline:** Architected streaming pipelines ingesting 29 GB of raw US CMS Medicare records (80M rows compressed into 200 MB DuckDB marts) with sub-100ms p95 response times.
-* **Thermodynamic Digital Twin:** Formulated kinetic degradation models and regression discontinuity testing to simulate pharmaceutical cold-chain shock resistance.
-
-```text
-[HIGH-THROUGHPUT ENGINE STATS]
-✓ Ingest Scale: 29 GB raw CMS data streaming pipeline
-✓ Storage Footprint: 80M records compressed to 200 MB DuckDB SQL mart
-✓ Query Benchmark: p95 latency = 71ms over 1.38M records [PASS]
-```
-</details>
-
-<br>
-
-<details>
-<summary><b>▶ $ ./inspect_core --subsystem=aquascan_missionos --target=robotics-sim-cv</b></summary>
-<br>
-
-> **Repositories:** [`rajmodi262/AquaScan`](https://github.com/rajmodi262/AquaScan-Underwater-Trash-Detection) & [`rajmodi262/MissionOS`](https://github.com/rajmodi262/MissionOS-Systems-Engineering-Platform) • `4 Test Suites` • `OpenCV` • `YOLOv8` • `Selenium`  
-> **Toolchain:** `Python` • `OpenCV (HSV/LAB)` • `Canvas 2D/3D` • `Selenium WebDriver` • `IEEE 830 Specs`
-
-```python
-# Adaptive Z-Score Sensor Anomaly & Degradation Scoring
-def test_optical_sensor_anomaly_detection():
-    """Verify adaptive Z-score catches sensor degradation under simulated turbidity."""
-    sensor_stream = generate_turbid_sensor_frames(noise_variance=0.85)
-    detector = AdaptiveZScoreAnomalyDetector(threshold=3.0)
-    
-    anomalies = detector.evaluate_stream(sensor_stream)
-    assert len(anomalies) > 0, "Failed to identify optical occlusion event!"
-```
-
-* **Real-Time CV Telemetry:** Engineered hybrid computer vision testing pipelines combining YOLOv8 deep learning with classical OpenCV color-space segmentation.
-* **Adaptive Sensor Validation:** Designed multi-scale grid analyzers with adaptive Z-score outlier detection to identify sensor failures and optical occlusion under extreme noise.
-* **Automated Simulation Harness:** Built MissionOS telemetry visualizer with Canvas 2D/3D physics rendering, validated with automated Selenium regression suites under IEEE 830 SRS specs.
-
-```text
-[SENSOR & SIMULATION DIAGNOSTIC]
-✓ Real-time inference: YOLOv8 + Classical OpenCV LAB/HSV segmentation
-✓ Outlier Threshold: Adaptive Z-Score > 3.0 triggers automated safety fallback
-✓ E2E Automation: Headless Selenium suites validating telemetry graphs under IEEE 830
-```
-</details>
-
----
-
-### 🧰 SYSTEMS TOOLCHAIN & KERNEL COMPETENCIES
-
-| Domain | Technologies & Tooling | Engineering Applications |
-| :--- | :--- | :--- |
-| **Systems & Languages** | `Python (3.11+)`, `Modern C++ (17/20)`, `Go`, `Java 21`, `Bash` | High-performance utilities, CLI test runners, native bindings |
-| **Testing & Verification** | `PyTest`, `JUnit 5`, `Selenium WebDriver`, `JaCoCo`, `Sanitizers` | Unit, integration, E2E simulation, concurrency stress, code coverage |
-| **OS & Kernel Primitives** | `Linux (Ubuntu/RHEL)`, `cgroups v2`, `seccomp BPF`, `Docker`, `WSL2` | Namespace isolation, process quota sandboxing, container runtimes |
-| **High-Throughput & Data** | `DuckDB`, `PostgreSQL`, `NumPy`, `SciPy`, `Pandas`, `WebSockets` | High-cardinality streaming marts, statistical hypothesis verification |
-| **Vision, AI & Simulation** | `OpenCV`, `YOLOv8`, `JAX / PyTorch`, `Canvas 2D/3D`, `CUDA Concepts` | Sensor telemetry validation, neural network audit, physics digital twins |
-| **CI/CD & Code Quality** | `GitHub Actions`, `Git`, `Static Analysis (Flake8, Clang-Tidy)` | Automated regression pipelines, pre-commit quality enforcement |
-
----
-
-### ⚡ LIVE SYSTEM TEST RUNNER TELEMETRY TRACE
-
-```bash
-$ ./system_diagnostic --suite=global-verification --concurrency=64 --sanitizer=address,thread
-============================== TEST SESSION PROGRESS ==============================
-platform linux -- Python 3.11.8, pytest-8.1.1, junit-5.10.2, cgroups-v2-active
-rootdir: /workspace/systems_monorepo
-
-synthproof/tests/test_empirical_audit.py    [PASS]   590/590  passed (Monte Carlo eps bounds verified)
-pharmatarget/tests/test_duckdb_marts.py     [PASS]   166/166  passed (71ms p95 @ 1.38M records)
-coldspend/tests/test_kinetic_models.py      [PASS]   112/112  passed (Thermodynamic drift verified)
-verita/tests/test_compliance_ml.py          [PASS]   106/106  passed (Real-time ML risk validated)
-agentforge/tests/test_langgraph_states.py   [PASS]    82/82   passed (Pydantic schema contracts valid)
-aquascan/tests/test_sensor_telemetry.py     [PASS]    45/45   passed (Adaptive Z-score threshold valid)
-snappark/tests/test_concurrency_locks.py    [PASS]     8/8    passed (0 race hazards detected)
-burrow/tests/test_cgroups_seccomp.py        [PASS]     4/4    passed (cgroups v2 quota enforced)
-keystone/tests/test_change_graphs.py        [PASS]    25/25   passed (Blast-radius traversal verified)
------------------------------------------------------------------------------------
-SUMMARY: 1,164 passed, 0 failed, 0 warnings in 21.43s (AddressSanitizer: 0 LEAKS DETECTED)
-STATUS:  GLOBAL REPOSITORY AUDIT PASSED -- SYSTEM IS STABLE & PRODUCTION VERIFIED 🟢
-```
 
 ---
 
 <div align="center">
-
-```text
-rajmodi@kernel-core:~$ echo "Deterministic verification is the foundation of high-performance systems."
-```
-
-<img src="https://img.shields.io/badge/Architecture-Distributed%20Systems%20%7C%20AI%20Verification-00E676?style=flat-square" alt="Architecture" />
-&nbsp;
-<img src="https://img.shields.io/badge/Memory_Safety-AddressSanitizer%20Clean-00B0FF?style=flat-square" alt="Memory Safety" />
-&nbsp;
-<img src="https://img.shields.io/badge/Concurrency-Zero%20Race%20Conditions-7928CA?style=flat-square" alt="Concurrency" />
-
+  <sub>Engineered for deterministic correctness, performance, and reliability.</sub>
+  <br><br>
+  <img src="https://img.shields.io/badge/Architecture-Distributed%20Systems%20%7C%20AI%20Verification-00E676?style=flat-square" alt="Architecture" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Memory_Safety-AddressSanitizer%20Clean-00B0FF?style=flat-square" alt="Memory Safety" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Concurrency-Zero%20Race%20Conditions-7928CA?style=flat-square" alt="Concurrency" />
 </div>
