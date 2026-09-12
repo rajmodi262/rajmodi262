@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- ================= 1. CINEMATIC HEADER ================= -->
-<img width="100%" src="./header.svg" alt="Raj Modi - Software Development Engineer | Data Scientist & Analyst | QA Tools & Test Development" />
+<img width="100%" src="./header.svg?v=2" alt="Raj Modi - Software Development Engineer | Data Scientist & Analyst | QA Tools & Test Development" />
 
 <br/>
 
 <!-- ================= 2. ROLE TYPEWRITER TERMINAL ================= -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2800&pause=1200&color=0284C7&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=860&height=50&lines=Software+Development+Engineer;Data+Scientist+%26+Analyst;QA+Tools+%26+Test+Development;Resilient+Software+%7C+Automated+Testing+%7C+Data+Pipelines" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2800&pause=1200&color=38BDF8&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=860&height=50&lines=Software+Development+Engineer;Data+Scientist+%26+Analyst;QA+Tools+%26+Test+Development" alt="Typing SVG" />
 
 </div>
 
@@ -23,12 +23,12 @@
 
 <!-- ================= 5. HOLOGRAPHIC SYSTEMS COMMAND HUD & SECURITY TELEMETRY ================= -->
 <p align="center">
-  <img src="./cockpit_hud.svg" alt="Holographic Systems Command HUD & Production Telemetry" width="100%">
+  <img src="./cockpit_hud.svg?v=3" alt="Holographic Systems Command HUD & Production Telemetry" width="100%">
 </p>
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
 <p align="center">
-  <img src="./pipeline.svg?v=5" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
+  <img src="./pipeline.svg?v=6" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
 </p>
 
 ---

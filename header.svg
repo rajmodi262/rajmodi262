@@ -1,26 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%">
   <defs>
+    <!-- Deep Obsidian Studio Gradient -->
     <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#020409"/>
-      <stop offset="25%" stop-color="#050f24"/>
-      <stop offset="55%" stop-color="#081e3a"/>
-      <stop offset="85%" stop-color="#0284c7"/>
-      <stop offset="100%" stop-color="#00ff9d"/>
+      <stop offset="0%" stop-color="#070a12"/>
+      <stop offset="25%" stop-color="#0c1322"/>
+      <stop offset="55%" stop-color="#111c33"/>
+      <stop offset="85%" stop-color="#1d2847"/>
+      <stop offset="100%" stop-color="#090d17"/>
     </linearGradient>
 
+    <!-- Harmonious Indigo/Cyan Wave -->
     <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#020409" stop-opacity="0.8"/>
-      <stop offset="40%" stop-color="#0284c7" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0.7"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="40%" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="75%" stop-color="#a855f7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.3"/>
     </linearGradient>
 
     <linearGradient id="text-glow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
     </linearGradient>
 
     <filter id="name-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -31,7 +34,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&amp;family=JetBrains+Mono:wght@500;700;800&amp;display=swap');
       .header-name {
         font-family: 'Inter', system-ui, -apple-system, sans-serif;
-        font-size: 56px;
+        font-size: 58px;
         font-weight: 900;
         letter-spacing: -0.5px;
       }
@@ -45,10 +48,10 @@
   </defs>
 
   <path d="M 0,0 L 960,0 L 960,175 C 800,210 620,165 480,185 C 340,205 160,225 0,175 Z" fill="url(#header-bg)"/>
-  <path d="M 0,165 C 180,210 360,175 520,195 C 680,215 820,175 960,180 L 960,195 C 800,225 620,180 480,200 C 340,220 160,230 0,190 Z" fill="url(#wave-grad)" opacity="0.6"/>
+  <path d="M 0,165 C 180,210 360,175 520,195 C 680,215 820,175 960,180 L 960,195 C 800,225 620,180 480,200 C 340,220 160,230 0,190 Z" fill="url(#wave-grad)"/>
 
   <text class="header-name" x="480" y="96" fill="url(#text-glow-grad)" text-anchor="middle" filter="url(#name-glow)">Raj Modi</text>
-  <text class="header-sub" x="480" y="140" fill="#00f3ff" text-anchor="middle">
+  <text class="header-sub" x="480" y="140" fill="#38bdf8" text-anchor="middle">
     Software Development Engineer  //  Data Scientist &amp; Analyst  //  QA Tools &amp; Test Development
   </text>
 </svg>
