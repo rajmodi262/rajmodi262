@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ================= 1. CINEMATIC HEADER ================= -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d&height=280&section=header&text=Raj%20Modi&fontSize=64&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Principal%20Systems%20and%20AI%20Architect%20%7C%20High-Performance%20Computing&descAlignY=58&descSize=16&descFontColor=00f3ff&stroke=00f3ff&strokeWidth=1" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d&height=260&section=header&text=Raj%20Modi&fontSize=64&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Principal%20Systems%20and%20AI%20Architect%20%7C%20High-Performance%20Computing&descAlignY=58&descSize=16&descFontColor=00f3ff&stroke=00f3ff&strokeWidth=1" />
 
 <br/>
 
@@ -17,11 +17,11 @@
 </p>
 
 <!-- ================= 3. TYPEWRITER TERMINAL ================= -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3200&pause=1200&color=00FF9D&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=860&height=50&lines=Principal+Systems+%26+AI+Architect+%7C+Distributed+Infrastructure;Deterministic+verification+engines+%7C+sub-50ms+p95+at+scale;Kernel+sandboxing+with+cgroups+v2+%26+seccomp-bpf;Audited+108%2C000%2B+LOC+across+1%2C164%2B+verified+automated+tests;Write+code+that+works.+Then+write+code+that+lasts." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3200&pause=1200&color=00FF9D&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=860&height=48&lines=Principal+Systems+%26+AI+Architect+%7C+Distributed+Infrastructure;Deterministic+verification+engines+%7C+sub-50ms+p95+at+scale;Kernel+sandboxing+with+cgroups+v2+%26+seccomp-bpf;Write+code+that+works.+Then+write+code+that+lasts." alt="Typing SVG" />
 
 </div>
 
-<!-- ================= 3.5. BIOMETRIC ASCII ARCHITECTURE TERMINAL ================= -->
+<!-- ================= 4. BIOMETRIC ASCII ARCHITECTURE TERMINAL ================= -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
@@ -32,26 +32,21 @@
 
 ---
 
-<!-- ================= 4. COMMAND CENTER HUD BANNER ================= -->
-<p align="center">
-  <img src="./banner.svg?v=4" alt="Developer Command Center HUD" width="100%">
-</p>
-
 <!-- ================= 5. 3D LANYARD & PRODUCTION STATS ================= -->
 <table border="0" width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="42%" align="center" valign="top">
-      <img src="./lanyard_badge.svg?v=4" alt="Staff Systems Architect ID Badge" width="100%">
+      <img src="./lanyard_badge.svg?v=5" alt="Staff Systems Architect ID Badge" width="100%">
     </td>
     <td width="58%" align="center" valign="top">
-      <img src="./telemetry_hud.svg?v=4" alt="Production Telemetry & Radar" width="100%">
+      <img src="./telemetry_hud.svg?v=5" alt="Production Telemetry & Radar" width="100%">
     </td>
   </tr>
 </table>
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
 <p align="center">
-  <img src="./pipeline.svg?v=4" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
+  <img src="./pipeline.svg?v=5" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
 </p>
 
 ---
@@ -88,7 +83,7 @@
 <div align="center">
 
 ## 🚀 Flagship Engineering Deployments
-<sub>Explore featured production systems, high-concurrency engines, and automated verification platforms.</sub>
+<sub>Featured production systems, high-concurrency engines, and automated verification platforms.</sub>
 <br/><br/>
 
 <table border="0" width="100%">
@@ -203,55 +198,11 @@
 
 ---
 
-<!-- ================= 9. REAL-TIME TELEMETRY & ACHIEVEMENTS ================= -->
+<!-- ================= 9. AUTHENTICATED CONTACT DECK ================= -->
 
 <div align="center">
 
-## 📈 Real-Time GitHub Telemetry & Velocity
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajmodi262&theme=tokyonight&hide_border=true&background=040711&stroke=00f3ff&ring=00ff9d&fire=00ff9d&currStreakNum=00f3ff" alt="GitHub Streak" width="49%" />
-  &nbsp;
-  <img src="./assets/top_languages.svg?v=1" alt="Top Languages" width="48%" />
-</p>
-
-### 🏆 Verified Engineering Milestones
-<br/>
-
-<table border="0">
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="75" /><br/>
-      <b>Pair Extraordinaire</b><br/>
-      <sub>Collaborative Engineering</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="75" /><br/>
-      <b>Pull Shark</b><br/>
-      <sub>Merged Pull Requests</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="75" /><br/>
-      <b>YOLO</b><br/>
-      <sub>Direct Delivery</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="75" /><br/>
-      <b>Starstruck</b><br/>
-      <sub>Stargazer Milestone</sub>
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-<!-- ================= 10. AUTHENTICATED CONTACT DECK ================= -->
-
-<div align="center">
-
-## 📡 Authenticated Comms & Contact Deck
+## 📡 Authenticated Comms & Verification
 
 <br/>
 
@@ -273,18 +224,23 @@
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center" valign="middle" width="180">
-      <b>Scan for Profile</b><br/><br/>
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https://github.com/rajmodi262&color=00ff9d&bgcolor=020617&margin=8" alt="GitHub QR Code" width="140" style="border-radius: 8px;" />
+    <td align="center" valign="middle" width="160">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=130x130&data=https://github.com/rajmodi262&color=00ff9d&bgcolor=020617&margin=6" alt="GitHub QR Code" width="130" style="border-radius: 8px;" /><br/>
+      <sub>Scan to Connect</sub>
     </td>
-    <td align="center" valign="middle">
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3500&pause=1200&color=00F3FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=520&height=50&lines=Thank+you+for+inspecting+the+architecture.;Deterministic+systems+%26+rigorous+verification.;Let%27s+build+software+that+redefines+the+standard." alt="Footer Typing" />
+    <td align="center" valign="middle" width="500">
+      <p align="left" style="font-family: monospace; font-size: 13px; line-height: 1.8; color: #a5d6ff;">
+        <code>&gt; engineer.status &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= "100% OPERATIONAL"</code><br/>
+        <code>&gt; primary.focus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= "Deterministic Systems &amp; Verification"</code><br/>
+        <code>&gt; verification.standard = "Zero-Race CAS Locks // Sub-50ms p95"</code><br/>
+        <code>&gt; encrypted.signature &nbsp;&nbsp;= "SHA-256 // 0x262_MODI_SYS"</code>
+      </p>
     </td>
   </tr>
 </table>
 
 <br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9d,25:0284c7,50:0a2540,75:050f24,100:020409&height=140&section=footer&text=%22Deterministic+code.+Rigorous+automated+verification.%22&fontSize=15&fontColor=00ff9d&fontAlignY=68&reversal=true" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9d,25:0284c7,50:0a2540,75:050f24,100:020409&height=120&section=footer&text=%22Deterministic+code.+Rigorous+automated+verification.%22&fontSize=14&fontColor=00ff9d&fontAlignY=68&reversal=true" />
 
 </div>
