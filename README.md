@@ -32,10 +32,10 @@
 <table border="0" width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="42%" align="center" valign="top">
-      <img src="./lanyard.svg?v=3" alt="Staff Systems Architect ID Badge" width="100%">
+      <img src="./lanyard_badge.svg" alt="Staff Systems Architect ID Badge" width="100%">
     </td>
     <td width="58%" align="center" valign="top">
-      <img src="./stats.svg?v=3" alt="Production Telemetry & Radar" width="100%">
+      <img src="./telemetry_hud.svg" alt="Production Telemetry & Radar" width="100%">
     </td>
   </tr>
 </table>
