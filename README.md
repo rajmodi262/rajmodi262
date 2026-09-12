@@ -7,13 +7,13 @@
 
 <!-- ================= 2. LIVE SYSTEM TELEMETRY PILLS ================= -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rajmodi262&style=for-the-badge&color=0284c7&label=SYS_PROFILE_VIEWS&labelColor=0d1117" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=rajmodi262&style=for-the-badge&color=0284c7&label=PROFILE_VIEWS&labelColor=0d1117" alt="Profile Views" />
   &nbsp;
-  <img src="https://img.shields.io/badge/CLEARANCE-LEVEL--07%20ROOT-047857?style=for-the-badge&labelColor=0d1117&logo=superuser&logoColor=34d399" alt="Clearance" />
+  <img src="https://img.shields.io/badge/CLEARANCE-STAFF%20ARCHITECT-047857?style=for-the-badge&labelColor=0d1117&logo=superuser&logoColor=34d399" alt="Clearance" />
   &nbsp;
   <img src="https://img.shields.io/badge/STATUS-100%25%20OPERATIONAL-0284c7?style=for-the-badge&labelColor=0d1117&logo=checkmarx&logoColor=38bdf8" alt="Status" />
   &nbsp;
-  <img src="https://img.shields.io/badge/ARCHITECTURE-DISTRIBUTED%20%26%20SYSTEMS-1e293b?style=for-the-badge&labelColor=0d1117&logo=linux&logoColor=38bdf8" alt="Architecture" />
+  <img src="https://img.shields.io/badge/SYSTEMS-DISTRIBUTED-1e293b?style=for-the-badge&labelColor=0d1117&logo=linux&logoColor=38bdf8" alt="Architecture" />
 </p>
 
 <!-- ================= 3. TYPEWRITER TERMINAL ================= -->
@@ -34,7 +34,7 @@
 
 <!-- ================= 5. HOLOGRAPHIC SYSTEMS COMMAND HUD & SECURITY TELEMETRY ================= -->
 <p align="center">
-  <img src="./command_hud.svg" alt="Holographic Systems Command HUD & Production Telemetry" width="100%">
+  <img src="./cockpit_hud.svg" alt="Holographic Systems Command HUD & Production Telemetry" width="100%">
 </p>
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
