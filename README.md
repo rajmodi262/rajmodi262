@@ -34,7 +34,7 @@
 
 <!-- ================= 5. HOLOGRAPHIC SYSTEMS COMMAND HUD & SECURITY TELEMETRY ================= -->
 <p align="center">
-  <img src="./telemetry_hud.svg?v=6" alt="Holographic Systems Command HUD & Production Telemetry" width="100%">
+  <img src="./command_hud.svg" alt="Holographic Systems Command HUD & Production Telemetry" width="100%">
 </p>
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
