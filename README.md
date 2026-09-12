@@ -28,7 +28,7 @@
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
 <p align="center">
-  <img src="./titanium_pipeline.svg" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
+  <img src="./pipeline_hyper.svg" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
 </p>
 
 ---

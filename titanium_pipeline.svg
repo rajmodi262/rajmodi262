@@ -1,222 +1,307 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 350" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" height="100%">
   <defs>
-    <!-- Background Chassis -->
-    <linearGradient id="ti-pipe-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141824"/>
-      <stop offset="50%" stop-color="#0f131c"/>
-      <stop offset="100%" stop-color="#0b0e15"/>
+    <!-- Master Titanium Slate Chassis -->
+    <linearGradient id="chassis-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121622"/>
+      <stop offset="40%" stop-color="#0d1017"/>
+      <stop offset="100%" stop-color="#090c12"/>
     </linearGradient>
 
-    <!-- Milled Rim -->
-    <linearGradient id="ti-pipe-rim" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#e2b76a" stop-opacity="0.45"/>
-      <stop offset="35%" stop-color="#334155" stop-opacity="0.3"/>
-      <stop offset="70%" stop-color="#1e293b" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#e2b76a" stop-opacity="0.35"/>
+    <linearGradient id="chassis-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2b76a" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#1e293b" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#e2b76a" stop-opacity="0.5"/>
     </linearGradient>
 
-    <!-- Fiber Optic Bus Wire -->
-    <linearGradient id="ti-bus-wire" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
+    <!-- Glowing Laser Bus -->
+    <linearGradient id="laser-bus" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
       <stop offset="25%" stop-color="#6366f1"/>
-      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#ec4899"/>
       <stop offset="75%" stop-color="#10b981"/>
-      <stop offset="100%" stop-color="#e2b76a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
     </linearGradient>
 
-    <!-- Stage Cartridge 1: Ingestion -->
-    <linearGradient id="cart-1-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#141c2c"/>
-      <stop offset="100%" stop-color="#0f1420"/>
+    <!-- Stage 1 Theme: Hyper Cyan -->
+    <linearGradient id="c1-rim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="c1-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c1a2e"/>
+      <stop offset="100%" stop-color="#08101d"/>
     </linearGradient>
 
-    <!-- Stage Cartridge 2: Kernel -->
-    <linearGradient id="cart-2-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#18182e"/>
-      <stop offset="100%" stop-color="#111122"/>
+    <!-- Stage 2 Theme: Royal Violet -->
+    <linearGradient id="c2-rim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="c2-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#151530"/>
+      <stop offset="100%" stop-color="#0d0d1f"/>
     </linearGradient>
 
-    <!-- Stage Cartridge 3: Concurrency -->
-    <linearGradient id="cart-3-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1c162e"/>
-      <stop offset="100%" stop-color="#130e22"/>
+    <!-- Stage 3 Theme: Plasma Magenta -->
+    <linearGradient id="c3-rim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+    <linearGradient id="c3-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241020"/>
+      <stop offset="100%" stop-color="#140912"/>
     </linearGradient>
 
-    <!-- Stage Cartridge 4: Verification -->
-    <linearGradient id="cart-4-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#121e1a"/>
-      <stop offset="100%" stop-color="#0c1714"/>
+    <!-- Stage 4 Theme: Hyper Emerald -->
+    <linearGradient id="c4-rim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="c4-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d241d"/>
+      <stop offset="100%" stop-color="#071410"/>
     </linearGradient>
 
-    <!-- Stage Cartridge 5: Proof -->
-    <linearGradient id="cart-5-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#211c15"/>
-      <stop offset="100%" stop-color="#17130c"/>
+    <!-- Stage 5 Theme: Solar Amber Gold -->
+    <linearGradient id="c5-rim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
     </linearGradient>
+    <linearGradient id="c5-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#261c0e"/>
+      <stop offset="100%" stop-color="#171008"/>
+    </linearGradient>
+
+    <!-- Active Laser Glow Filter -->
+    <filter id="neon-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&amp;family=Inter:wght@600;700;800;900&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800;900&amp;family=Inter:wght@600;700;800;900&amp;display=swap');
       .txt-sans { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
       .txt-mono { font-family: 'JetBrains Mono', monospace; }
 
-      @keyframes pulse-flow {
-        0% { stroke-dashoffset: 160; }
+      @keyframes laser-pulse {
+        0% { stroke-dashoffset: 200; }
         100% { stroke-dashoffset: 0; }
       }
-      .fiber-wire {
-        stroke-dasharray: 6, 6;
-        animation: pulse-flow 3.5s linear infinite;
+      .laser-wire {
+        stroke-dasharray: 8, 8;
+        animation: laser-pulse 3s linear infinite;
       }
 
-      @keyframes photon-travel {
-        0% { transform: translateX(0px); opacity: 0.2; }
-        50% { opacity: 1; }
-        100% { transform: translateX(870px); opacity: 0.2; }
+      @keyframes photon-speed {
+        0% { transform: translateX(0px); opacity: 0.1; }
+        30% { opacity: 1; }
+        70% { opacity: 1; }
+        100% { transform: translateX(760px); opacity: 0.1; }
       }
-      .photon-packet {
-        animation: photon-travel 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      .photon-orb {
+        animation: photon-speed 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      @keyframes scan-line {
+        0% { transform: translateX(-100px); opacity: 0; }
+        50% { opacity: 0.7; }
+        100% { transform: translateX(960px); opacity: 0; }
+      }
+      .scanner {
+        animation: scan-line 5s linear infinite;
+      }
+
+      @keyframes badge-pulse {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.15); }
+      }
+      .pulse-dot {
+        animation: badge-pulse 2s ease-in-out infinite;
       }
     </style>
   </defs>
 
-  <!-- Master Titanium Chassis -->
-  <rect width="1160" height="350" rx="16" fill="url(#ti-pipe-bg)" stroke="url(#ti-pipe-rim)" stroke-width="1.2"/>
+  <!-- ================= 1. MASTER CHASSIS ================= -->
+  <rect width="960" height="380" rx="18" fill="url(#chassis-bg)" stroke="url(#chassis-rim)" stroke-width="1.4"/>
 
-  <!-- Top Title Banner -->
-  <g transform="translate(35, 30)">
-    <circle cx="0" cy="0" r="4" fill="#34d399"/>
-    <text class="txt-sans" font-size="12" font-weight="800" fill="#f1f5f9" x="14" y="4" letter-spacing="1.2">FULL-STACK &amp; SYSTEMS VERIFICATION PIPELINE ARCHITECTURE</text>
-    <text class="txt-mono" font-size="10.5" font-weight="700" fill="#e2b76a" x="720" y="4" letter-spacing="0.8">[ REAL-TIME DATA STREAM // LATENCY &lt; 20ms ]</text>
+  <!-- Scanning Laser Line across Top -->
+  <line class="scanner" x1="0" y1="46" x2="160" y2="46" stroke="url(#laser-bus)" stroke-width="2" filter="url(#neon-glow)"/>
+
+  <!-- ================= 2. TOP STATUS BAR ================= -->
+  <g transform="translate(24, 28)">
+    <circle class="pulse-dot" cx="0" cy="0" r="4.5" fill="#34d399"/>
+    <text class="txt-sans" font-size="12" font-weight="800" fill="#f8fafc" x="14" y="4" letter-spacing="1.2">FULL-STACK &amp; SYSTEMS VERIFICATION PIPELINE</text>
+    <text class="txt-mono" font-size="10.5" font-weight="700" fill="#e2b76a" x="520" y="4" letter-spacing="0.8">[ STREAM: 1.2M OPS/SEC // LATENCY &lt; 20ms ]</text>
+    <text class="txt-mono" font-size="10" font-weight="700" fill="#38bdf8" x="840" y="4" letter-spacing="1">LIVE_PIPELINE</text>
   </g>
-  <line x1="25" y1="48" x2="1135" y2="48" stroke="#1e293b" stroke-width="1"/>
+  <line x1="20" y1="46" x2="940" y2="46" stroke="#1e293b" stroke-width="1"/>
 
-  <!-- Inter-Stage Continuous Laser Bus -->
-  <g transform="translate(140, 182)">
-    <line x1="0" y1="0" x2="880" y2="0" stroke="#1e293b" stroke-width="2"/>
-    <line class="fiber-wire" x1="0" y1="0" x2="880" y2="0" stroke="url(#ti-bus-wire)" stroke-width="2" opacity="0.6"/>
-    <!-- Photon Stream Packet -->
-    <circle class="photon-packet" cx="0" cy="0" r="4" fill="#ffffff" filter="drop-shadow(0 0 4px #e2b76a)"/>
+  <!-- ================= 3. ACTIVE FIBER LASER CONDUIT ================= -->
+  <g transform="translate(100, 200)">
+    <line x1="0" y1="0" x2="760" y2="0" stroke="#1e293b" stroke-width="3"/>
+    <line class="laser-wire" x1="0" y1="0" x2="760" y2="0" stroke="url(#laser-bus)" stroke-width="3" filter="url(#neon-glow)"/>
+    <!-- Photon Bullet -->
+    <circle class="photon-orb" cx="0" cy="0" r="5" fill="#ffffff" filter="drop-shadow(0 0 6px #00f0ff)"/>
   </g>
 
-  <!-- ================= 5 PIPELINE STAGE CARTRIDGES ================= -->
+  <!-- ================= 4. THE 5 VIBRANT STAGE CARTRIDGES ================= -->
 
   <!-- STAGE 1: DATA INGESTION -->
-  <g transform="translate(35, 74)">
-    <rect width="205" height="218" rx="10" fill="url(#cart-1-bg)" stroke="#25354d" stroke-width="1.2"/>
-    <line x1="0" y1="0" x2="205" y2="0" stroke="#38bdf8" stroke-width="1.5" opacity="0.7"/>
-    <g transform="translate(14, 24)">
-      <rect width="24" height="15" rx="3" fill="#1e3a5f"/>
-      <text class="txt-mono" font-size="8.5" font-weight="800" fill="#38bdf8" x="4" y="11">IN</text>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="32" y="6">LAYER 01</text>
-      <text class="txt-sans" font-size="12" font-weight="800" fill="#f8fafc" x="32" y="18">DATA INGESTION</text>
+  <g transform="translate(20, 68)">
+    <rect width="174" height="248" rx="12" fill="url(#c1-bg)" stroke="#1e3a5f" stroke-width="1.2"/>
+    <path d="M 0,12 C 0,5 5,0 12,0 L 162,0 C 169,0 174,5 174,12 L 174,28 L 0,28 Z" fill="url(#c1-rim)"/>
+    <g transform="translate(10, 20)">
+      <text class="txt-mono" font-size="10" font-weight="900" fill="#ffffff">01 // INGESTION</text>
+      <text class="txt-sans" font-size="13" font-weight="900" fill="#f8fafc" y="22">Data Ingestion</text>
     </g>
-    <!-- Sub-boxes -->
-    <g transform="translate(14, 62)">
-      <rect width="177" height="26" rx="5" fill="#0f1622" stroke="#1e293b" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="16">29GB / 80M Rows</text>
-      <rect y="32" width="177" height="26" rx="5" fill="#0f1622" stroke="#1e293b" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="48">DuckDB Columnar</text>
-      <rect y="64" width="177" height="26" rx="5" fill="#0f1622" stroke="#1e293b" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="80">PyArrow Streaming</text>
-      <rect y="98" width="177" height="28" rx="5" fill="#0b1724" stroke="#1e3a5f" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" font-weight="700" fill="#38bdf8" x="10" y="115">STATUS: ZERO LOSS</text>
+    <!-- 3 High-Visibility Data Chips -->
+    <g transform="translate(10, 72)">
+      <rect width="154" height="32" rx="6" fill="#102038" stroke="#1e3a5f" stroke-width="1"/>
+      <rect width="3.5" height="32" rx="1.5" fill="#00f0ff"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="20">29GB / 80M Rows</text>
+
+      <rect y="40" width="154" height="32" rx="6" fill="#102038" stroke="#1e3a5f" stroke-width="1"/>
+      <rect y="40" width="3.5" height="32" rx="1.5" fill="#00f0ff"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="60">DuckDB Columnar</text>
+
+      <rect y="80" width="154" height="32" rx="6" fill="#102038" stroke="#1e3a5f" stroke-width="1"/>
+      <rect y="80" width="3.5" height="32" rx="1.5" fill="#00f0ff"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="100">PyArrow Streaming</text>
+
+      <!-- Active Status Badge -->
+      <rect y="124" width="154" height="32" rx="6" fill="#072033" stroke="#00f0ff" stroke-width="1.2"/>
+      <circle cx="14" cy="140" r="3.5" fill="#00f0ff"/>
+      <text class="txt-mono" font-size="10.5" font-weight="800" fill="#38bdf8" x="24" y="144">ZERO LOSS PASS</text>
     </g>
   </g>
 
   <!-- STAGE 2: KERNEL SANDBOX -->
-  <g transform="translate(255, 74)">
-    <rect width="205" height="218" rx="10" fill="url(#cart-2-bg)" stroke="#2b2d52" stroke-width="1.2"/>
-    <line x1="0" y1="0" x2="205" y2="0" stroke="#6366f1" stroke-width="1.5" opacity="0.7"/>
-    <g transform="translate(14, 24)">
-      <rect width="24" height="15" rx="3" fill="#2d2b59"/>
-      <text class="txt-mono" font-size="8.5" font-weight="800" fill="#818cf8" x="4" y="11">OS</text>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="32" y="6">LAYER 02</text>
-      <text class="txt-sans" font-size="12" font-weight="800" fill="#f8fafc" x="32" y="18">KERNEL SANDBOX</text>
+  <g transform="translate(206, 68)">
+    <rect width="174" height="248" rx="12" fill="url(#c2-bg)" stroke="#2b2d56" stroke-width="1.2"/>
+    <path d="M 0,12 C 0,5 5,0 12,0 L 162,0 C 169,0 174,5 174,12 L 174,28 L 0,28 Z" fill="url(#c2-rim)"/>
+    <g transform="translate(10, 20)">
+      <text class="txt-mono" font-size="10" font-weight="900" fill="#ffffff">02 // ISOLATION</text>
+      <text class="txt-sans" font-size="13" font-weight="900" fill="#f8fafc" y="22">Kernel Sandbox</text>
     </g>
-    <g transform="translate(14, 62)">
-      <rect width="177" height="26" rx="5" fill="#121226" stroke="#1e223d" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="16">Linux cgroups v2</text>
-      <rect y="32" width="177" height="26" rx="5" fill="#121226" stroke="#1e223d" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="48">seccomp-bpf Rules</text>
-      <rect y="64" width="177" height="26" rx="5" fill="#121226" stroke="#1e223d" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="80">Namespaces / C++20</text>
-      <rect y="98" width="177" height="28" rx="5" fill="#161633" stroke="#3730a3" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" font-weight="700" fill="#818cf8" x="10" y="115">&lt; 1ms JIT ISOLATION</text>
+    <!-- 3 High-Visibility Data Chips -->
+    <g transform="translate(10, 72)">
+      <rect width="154" height="32" rx="6" fill="#1a1c3b" stroke="#312e81" stroke-width="1"/>
+      <rect width="3.5" height="32" rx="1.5" fill="#818cf8"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="20">Linux cgroups v2</text>
+
+      <rect y="40" width="154" height="32" rx="6" fill="#1a1c3b" stroke="#312e81" stroke-width="1"/>
+      <rect y="40" width="3.5" height="32" rx="1.5" fill="#818cf8"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="60">seccomp-bpf Rules</text>
+
+      <rect y="80" width="154" height="32" rx="6" fill="#1a1c3b" stroke="#312e81" stroke-width="1"/>
+      <rect y="80" width="3.5" height="32" rx="1.5" fill="#818cf8"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="100">C++20 Namespaces</text>
+
+      <!-- Active Status Badge -->
+      <rect y="124" width="154" height="32" rx="6" fill="#161738" stroke="#818cf8" stroke-width="1.2"/>
+      <circle cx="14" cy="140" r="3.5" fill="#818cf8"/>
+      <text class="txt-mono" font-size="10.5" font-weight="800" fill="#a5b4fc" x="24" y="144">&lt; 1ms OVERHEAD</text>
     </g>
   </g>
 
   <!-- STAGE 3: CONCURRENCY -->
-  <g transform="translate(475, 74)">
-    <rect width="205" height="218" rx="10" fill="url(#cart-3-bg)" stroke="#372652" stroke-width="1.2"/>
-    <line x1="0" y1="0" x2="205" y2="0" stroke="#a855f7" stroke-width="1.5" opacity="0.7"/>
-    <g transform="translate(14, 24)">
-      <rect width="26" height="15" rx="3" fill="#3b215c"/>
-      <text class="txt-mono" font-size="8.5" font-weight="800" fill="#c084fc" x="3" y="11">CAS</text>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="34" y="6">LAYER 03</text>
-      <text class="txt-sans" font-size="12" font-weight="800" fill="#f8fafc" x="34" y="18">CONCURRENCY</text>
+  <g transform="translate(392, 68)">
+    <rect width="174" height="248" rx="12" fill="url(#c3-bg)" stroke="#4c1d38" stroke-width="1.2"/>
+    <path d="M 0,12 C 0,5 5,0 12,0 L 162,0 C 169,0 174,5 174,12 L 174,28 L 0,28 Z" fill="url(#c3-rim)"/>
+    <g transform="translate(10, 20)">
+      <text class="txt-mono" font-size="10" font-weight="900" fill="#ffffff">03 // CONCURRENCY</text>
+      <text class="txt-sans" font-size="13" font-weight="900" fill="#f8fafc" y="22">Atomic Engine</text>
     </g>
-    <g transform="translate(14, 62)">
-      <rect width="177" height="26" rx="5" fill="#140f26" stroke="#251a3d" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="16">Atomic CAS Locks</text>
-      <rect y="32" width="177" height="26" rx="5" fill="#140f26" stroke="#251a3d" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="48">Lock-Free Buffers</text>
-      <rect y="64" width="177" height="26" rx="5" fill="#140f26" stroke="#251a3d" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="80">Go / Async Runtimes</text>
-      <rect y="98" width="177" height="28" rx="5" fill="#1c1236" stroke="#581c87" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" font-weight="700" fill="#c084fc" x="10" y="115">ZERO-RACE INTEGRITY</text>
+    <!-- 3 High-Visibility Data Chips -->
+    <g transform="translate(10, 72)">
+      <rect width="154" height="32" rx="6" fill="#2b1424" stroke="#831843" stroke-width="1"/>
+      <rect width="3.5" height="32" rx="1.5" fill="#f43f5e"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="20">Atomic CAS Locks</text>
+
+      <rect y="40" width="154" height="32" rx="6" fill="#2b1424" stroke="#831843" stroke-width="1"/>
+      <rect y="40" width="3.5" height="32" rx="1.5" fill="#f43f5e"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="60">Lock-Free Buffers</text>
+
+      <rect y="80" width="154" height="32" rx="6" fill="#2b1424" stroke="#831843" stroke-width="1"/>
+      <rect y="80" width="3.5" height="32" rx="1.5" fill="#f43f5e"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="100">Go Async Runtimes</text>
+
+      <!-- Active Status Badge -->
+      <rect y="124" width="154" height="32" rx="6" fill="#300d20" stroke="#f43f5e" stroke-width="1.2"/>
+      <circle cx="14" cy="140" r="3.5" fill="#f43f5e"/>
+      <text class="txt-mono" font-size="10.5" font-weight="800" fill="#fda4af" x="24" y="144">ZERO-RACE 10K RPS</text>
     </g>
   </g>
 
-  <!-- STAGE 4: STATISTICAL VERIFICATION -->
-  <g transform="translate(695, 74)">
-    <rect width="205" height="218" rx="10" fill="url(#cart-4-bg)" stroke="#1d382c" stroke-width="1.2"/>
-    <line x1="0" y1="0" x2="205" y2="0" stroke="#10b981" stroke-width="1.5" opacity="0.7"/>
-    <g transform="translate(14, 24)">
-      <rect width="24" height="15" rx="3" fill="#143b27"/>
-      <text class="txt-mono" font-size="8.5" font-weight="800" fill="#34d399" x="5" y="11">AI</text>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="32" y="6">LAYER 04</text>
-      <text class="txt-sans" font-size="12" font-weight="800" fill="#f8fafc" x="32" y="18">VERIFICATION</text>
+  <!-- STAGE 4: VERIFICATION -->
+  <g transform="translate(578, 68)">
+    <rect width="174" height="248" rx="12" fill="url(#c4-bg)" stroke="#164e3b" stroke-width="1.2"/>
+    <path d="M 0,12 C 0,5 5,0 12,0 L 162,0 C 169,0 174,5 174,12 L 174,28 L 0,28 Z" fill="url(#c4-rim)"/>
+    <g transform="translate(10, 20)">
+      <text class="txt-mono" font-size="10" font-weight="900" fill="#ffffff">04 // VERIFY</text>
+      <text class="txt-sans" font-size="13" font-weight="900" fill="#f8fafc" y="22">Automated Audit</text>
     </g>
-    <g transform="translate(14, 62)">
-      <rect width="177" height="26" rx="5" fill="#0d1c17" stroke="#162e24" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="16">Monte Carlo Bounds</text>
-      <rect y="32" width="177" height="26" rx="5" fill="#0d1c17" stroke="#162e24" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="48">KS &amp; Epps-Singleton</text>
-      <rect y="64" width="177" height="26" rx="5" fill="#0d1c17" stroke="#162e24" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="80">140+ Test Suites</text>
-      <rect y="98" width="177" height="28" rx="5" fill="#0c241c" stroke="#065f46" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" font-weight="700" fill="#34d399" x="10" y="115">100% SUITE PASS</text>
+    <!-- 3 High-Visibility Data Chips -->
+    <g transform="translate(10, 72)">
+      <rect width="154" height="32" rx="6" fill="#122a22" stroke="#065f46" stroke-width="1"/>
+      <rect width="3.5" height="32" rx="1.5" fill="#34d399"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="20">Monte Carlo Bounds</text>
+
+      <rect y="40" width="154" height="32" rx="6" fill="#122a22" stroke="#065f46" stroke-width="1"/>
+      <rect y="40" width="3.5" height="32" rx="1.5" fill="#34d399"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="60">KS &amp; Epps-Singleton</text>
+
+      <rect y="80" width="154" height="32" rx="6" fill="#122a22" stroke="#065f46" stroke-width="1"/>
+      <rect width="3.5" height="32" rx="1.5" fill="#34d399"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="100">140+ Test Suites</text>
+
+      <!-- Active Status Badge -->
+      <rect y="124" width="154" height="32" rx="6" fill="#082b1d" stroke="#34d399" stroke-width="1.2"/>
+      <circle cx="14" cy="140" r="3.5" fill="#34d399"/>
+      <text class="txt-mono" font-size="10.5" font-weight="800" fill="#6ee7b7" x="24" y="144">100% SUITE PASS</text>
     </g>
   </g>
 
   <!-- STAGE 5: AUDIT & PROOF -->
-  <g transform="translate(915, 74)">
-    <rect width="205" height="218" rx="10" fill="url(#cart-5-bg)" stroke="#3d3320" stroke-width="1.2"/>
-    <line x1="0" y1="0" x2="205" y2="0" stroke="#e2b76a" stroke-width="1.5" opacity="0.7"/>
-    <g transform="translate(14, 24)">
-      <rect width="24" height="15" rx="3" fill="#3d2c14"/>
-      <text class="txt-mono" font-size="8.5" font-weight="800" fill="#f3d38c" x="4" y="11">DB</text>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="32" y="6">LAYER 05</text>
-      <text class="txt-sans" font-size="12" font-weight="800" fill="#f8fafc" x="32" y="18">AUDIT &amp; PROOF</text>
+  <g transform="translate(764, 68)">
+    <rect width="174" height="248" rx="12" fill="url(#c5-bg)" stroke="#523916" stroke-width="1.2"/>
+    <path d="M 0,12 C 0,5 5,0 12,0 L 162,0 C 169,0 174,5 174,12 L 174,28 L 0,28 Z" fill="url(#c5-rim)"/>
+    <g transform="translate(10, 20)">
+      <text class="txt-mono" font-size="10" font-weight="900" fill="#ffffff">05 // PROOF</text>
+      <text class="txt-sans" font-size="13" font-weight="900" fill="#f8fafc" y="22">Cryptographic Proof</text>
     </g>
-    <g transform="translate(14, 62)">
-      <rect width="177" height="26" rx="5" fill="#1a140d" stroke="#2e2213" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="16">SHA-256 Audit Ledger</text>
-      <rect y="32" width="177" height="26" rx="5" fill="#1a140d" stroke="#2e2213" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="48">PostgreSQL &amp; Redis</text>
-      <rect y="64" width="177" height="26" rx="5" fill="#1a140d" stroke="#2e2213" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" fill="#94a3b8" x="10" y="80">Prometheus Telemetry</text>
-      <rect y="98" width="177" height="28" rx="5" fill="#291e10" stroke="#78350f" stroke-width="0.8"/>
-      <text class="txt-mono" font-size="9" font-weight="700" fill="#f3d38c" x="10" y="115">ACID IMMUTABLE</text>
+    <!-- 3 High-Visibility Data Chips -->
+    <g transform="translate(10, 72)">
+      <rect width="154" height="32" rx="6" fill="#302312" stroke="#78350f" stroke-width="1"/>
+      <rect width="3.5" height="32" rx="1.5" fill="#fbbf24"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="20">SHA-256 Ledger</text>
+
+      <rect y="40" width="154" height="32" rx="6" fill="#302312" stroke="#78350f" stroke-width="1"/>
+      <rect y="40" width="3.5" height="32" rx="1.5" fill="#fbbf24"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="60">Postgres &amp; Redis</text>
+
+      <rect y="80" width="154" height="32" rx="6" fill="#302312" stroke="#78350f" stroke-width="1"/>
+      <rect y="80" width="3.5" height="32" rx="1.5" fill="#fbbf24"/>
+      <text class="txt-sans" font-size="11.5" font-weight="700" fill="#ffffff" x="12" y="100">Prometheus Telemetry</text>
+
+      <!-- Active Status Badge -->
+      <rect y="124" width="154" height="32" rx="6" fill="#33200a" stroke="#fbbf24" stroke-width="1.2"/>
+      <circle cx="14" cy="140" r="3.5" fill="#fbbf24"/>
+      <text class="txt-mono" font-size="10.5" font-weight="800" fill="#fde68a" x="24" y="144">ACID IMMUTABLE</text>
     </g>
   </g>
 
-  <!-- Footer Stats Ribbon -->
-  <line x1="25" y1="310" x2="1135" y2="310" stroke="#1e293b" stroke-width="1"/>
-  <g transform="translate(35, 332)" class="txt-mono" font-size="9.5">
-    <text fill="#64748b">ARCHITECTURE: <tspan fill="#f1f5f9" font-weight="700">DISTRIBUTED SYSTEMS &amp; AI VERIFICATION</tspan></text>
-    <text x="360" fill="#64748b">TOTAL THROUGHPUT: <tspan fill="#34d399" font-weight="700">1.2M OPS/SEC (DUCKDB VECTORIZED)</tspan></text>
-    <text x="730" fill="#64748b">DEPLOYMENT: <tspan fill="#818cf8" font-weight="700">DOCKER &amp; LINUX KERNEL</tspan></text>
-    <text x="1020" fill="#64748b">UPTIME: <tspan fill="#e2b76a" font-weight="700">99.99%</tspan></text>
+  <!-- ================= 5. FOOTER STATS RIBBON ================= -->
+  <line x1="20" y1="335" x2="940" y2="335" stroke="#1e293b" stroke-width="1"/>
+  <g transform="translate(26, 358)" class="txt-mono" font-size="10" font-weight="600">
+    <text fill="#64748b">ARCHITECTURE: <tspan fill="#f8fafc" font-weight="700">DISTRIBUTED SYSTEMS &amp; AI VERIFICATION</tspan></text>
+    <text x="375" fill="#64748b">THROUGHPUT: <tspan fill="#34d399" font-weight="700">1.2M OPS/SEC</tspan></text>
+    <text x="615" fill="#64748b">DEPLOYMENT: <tspan fill="#818cf8" font-weight="700">DOCKER &amp; LINUX KERNEL</tspan></text>
+    <text x="840" fill="#64748b">UPTIME: <tspan fill="#fbbf24" font-weight="700">99.99%</tspan></text>
   </g>
 </svg>
