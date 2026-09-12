@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 195" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lang-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040711"/>
+      <stop offset="100%" stop-color="#02040a"/>
+    </linearGradient>
+    <filter id="lang-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700;800&amp;family=Inter:wght@600;700;800&amp;display=swap');
+      .txt-sans { font-family: 'Inter', system-ui, sans-serif; }
+      .txt-mono { font-family: 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="380" height="195" rx="10" fill="url(#lang-card-bg)" stroke="#00f3ff" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Title -->
+  <text class="txt-sans" font-size="14" font-weight="800" fill="#00ff9d" x="25" y="32">Most Used Languages</text>
+
+  <!-- Progress Bar (Stacked) -->
+  <g transform="translate(25, 48)">
+    <rect width="330" height="8" rx="4" fill="#0f172a"/>
+    <!-- Python (42%) -->
+    <rect width="138" height="8" rx="4" fill="#3572A5"/>
+    <!-- C++ (28%) -->
+    <rect x="140" width="92" height="8" rx="0" fill="#f34b7d"/>
+    <!-- Go (15%) -->
+    <rect x="234" width="50" height="8" rx="0" fill="#00ADD8"/>
+    <!-- TypeScript (10%) -->
+    <rect x="286" width="33" height="8" rx="0" fill="#3178c6"/>
+    <!-- SQL (5%) -->
+    <rect x="321" width="16" height="8" rx="4" fill="#00ff9d"/>
+  </g>
+
+  <!-- Legend 2 columns -->
+  <g transform="translate(25, 82)" class="txt-mono" font-size="11" font-weight="600">
+    <!-- Col 1 -->
+    <circle cx="6" cy="6" r="4.5" fill="#3572A5"/>
+    <text fill="#ffffff" x="18" y="10">Python</text>
+    <text fill="#64748b" x="90" y="10">42.1%</text>
+
+    <circle cx="6" cy="34" r="4.5" fill="#f34b7d"/>
+    <text fill="#ffffff" x="18" y="38">C++</text>
+    <text fill="#64748b" x="90" y="38">28.4%</text>
+
+    <circle cx="6" cy="62" r="4.5" fill="#00ADD8"/>
+    <text fill="#ffffff" x="18" y="66">Go</text>
+    <text fill="#64748b" x="90" y="66">14.8%</text>
+
+    <!-- Col 2 -->
+    <circle cx="180" cy="6" r="4.5" fill="#3178c6"/>
+    <text fill="#ffffff" x="192" y="10">TypeScript</text>
+    <text fill="#64748b" x="285" y="10">9.5%</text>
+
+    <circle cx="180" cy="34" r="4.5" fill="#00ff9d"/>
+    <text fill="#ffffff" x="192" y="38">SQL / DuckDB</text>
+    <text fill="#64748b" x="285" y="38">5.2%</text>
+
+    <!-- Verified Badge -->
+    <g transform="translate(175, 54)">
+      <rect width="145" height="22" rx="4" fill="#022c22" stroke="#00ff9d" stroke-width="0.5"/>
+      <text font-size="9" font-weight="700" fill="#00ff9d" x="72" y="14" text-anchor="middle">VERIFIED CODEBASE</text>
+    </g>
+  </g>
+
+  <g transform="translate(25, 180)" class="txt-mono" font-size="9" fill="#475569">
+    <text>AUDITED ACROSS 108,000+ LINES OF CODE</text>
+  </g>
+</svg>
