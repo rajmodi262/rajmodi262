@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- ================= 1. CINEMATIC HEADER ================= -->
-<img width="100%" src="./header_studio.svg" alt="Raj Modi - Software Development Engineer | Data Scientist & Analyst | QA Tools & Test Development" />
+<img width="100%" src="./titanium_header.svg" alt="Raj Modi - Software Development Engineer | Data Scientist & Analyst | QA Tools & Test Development" />
 
 <br/>
 
 <!-- ================= 2. ROLE TYPEWRITER TERMINAL ================= -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2800&pause=1200&color=38BDF8&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=860&height=50&lines=Software+Development+Engineer;Data+Scientist+%26+Analyst;QA+Tools+%26+Test+Development" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2800&pause=1200&color=E2B76A&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=860&height=50&lines=Software+Development+Engineer;Data+Scientist+%26+Analyst;QA+Tools+%26+Test+Development" alt="Typing SVG" />
 
 </div>
 
@@ -23,12 +23,12 @@
 
 <!-- ================= 5. HOLOGRAPHIC SYSTEMS COMMAND HUD & SECURITY TELEMETRY ================= -->
 <p align="center">
-  <img src="./hud_matrix.svg" alt="Holographic Systems Command HUD & Production Telemetry" width="100%">
+  <img src="./titanium_hud.svg" alt="Midnight Titanium Systems Command HUD & Production Telemetry" width="100%">
 </p>
 
 <!-- ================= 6. ANIMATED FULL-STACK & SYSTEMS PIPELINE ================= -->
 <p align="center">
-  <img src="./pipeline_flow.svg" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
+  <img src="./titanium_pipeline.svg" alt="Full-Stack & Systems Verification Pipeline Architecture" width="100%">
 </p>
 
 ---
