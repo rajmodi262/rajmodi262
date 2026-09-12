@@ -205,20 +205,13 @@ STATUS:  GLOBAL REPOSITORY AUDIT PASSED -- SYSTEM IS STABLE & PRODUCTION VERIFIE
 
 ---
 
-### 📊 ACTIVITY & TELEMETRY
+---
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=rajmodi262&theme=tokyonight&hide_border=true&background=0D1117&ring=00E676&fire=00E676&currStreakLabel=00E676" alt="GitHub Streak" />
+  <img src="https://img.shields.io/badge/Architecture-Distributed%20Systems%20%7C%20AI%20Verification-00E676?style=flat-square" alt="Architecture" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Memory_Safety-AddressSanitizer%20Clean-00B0FF?style=flat-square" alt="Memory Safety" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Concurrency-Zero%20Race%20Conditions-7928CA?style=flat-square" alt="Concurrency" />
 </div>
 
-<br>
-
-<div align="center">
-  <a href="https://github.com/rajmodi262">
-    <img src="https://komarev.com/ghpvc/?username=rajmodi262&style=flat-square&color=00e676&label=PROFILE+VIEWS" alt="Profile Views" />
-  </a>
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/rajmodi262?style=flat-square&logo=github&color=00E676" alt="Followers" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/System_Integrity-100%25%20TESTS%20PASSING-00E676?style=flat-square" alt="Integrity" />
-</div>
